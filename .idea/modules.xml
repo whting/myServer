@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-bit/demo-bit.iml" filepath="$PROJECT_DIR$/demo-bit/demo-bit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-designPatterns/demo-designPatterns.iml" filepath="$PROJECT_DIR$/demo-designPatterns/demo-designPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-dubbo/demo-dubbo.iml" filepath="$PROJECT_DIR$/demo-dubbo/demo-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-io_nio_socket/demo-io_nio_socket.iml" filepath="$PROJECT_DIR$/demo-io_nio_socket/demo-io_nio_socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-java8/demo-java8.iml" filepath="$PROJECT_DIR$/demo-java8/demo-java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-jstackAnalyse/demo-jstackAnalyse.iml" filepath="$PROJECT_DIR$/demo-jstackAnalyse/demo-jstackAnalyse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-nosql/demo-nosql.iml" filepath="$PROJECT_DIR$/demo-nosql/demo-nosql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-proxy/demo-proxy.iml" filepath="$PROJECT_DIR$/demo-proxy/demo-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-spider/demo-spider.iml" filepath="$PROJECT_DIR$/demo-spider/demo-spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-thread/demo-thread.iml" filepath="$PROJECT_DIR$/demo-thread/demo-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-websockets/demo-websockets.iml" filepath="$PROJECT_DIR$/demo-websockets/demo-websockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myServe-Common/myServe-Common.iml" filepath="$PROJECT_DIR$/myServe-Common/myServe-Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myServe-Service/myServe-Service.iml" filepath="$PROJECT_DIR$/myServe-Service/myServe-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myServe-UI/myServe-UI.iml" filepath="$PROJECT_DIR$/myServe-UI/myServe-UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myServe-Web/myServe-Web.iml" filepath="$PROJECT_DIR$/myServe-Web/myServe-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myServer.iml" filepath="$PROJECT_DIR$/myServer.iml" />
+    </modules>
+  </component>
+</project>
