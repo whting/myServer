@@ -1,4 +1,4 @@
-public class Test {
+public class BitTest {
     public static void main(String[] args) {
         String processNode = "DZ";
         StringBuffer sb = new StringBuffer(processNode);
