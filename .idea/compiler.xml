@@ -6,12 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-bit" />
+        <module name="demo-designPatterns" />
+        <module name="demo-dubbo" />
+        <module name="demo-dubbo-client" />
+        <module name="demo-dubbo-server" />
+        <module name="demo-io_nio_socket" />
+        <module name="demo-java8" />
+        <module name="demo-jstackAnalyse" />
+        <module name="demo-nosql" />
+        <module name="demo-proxy" />
+        <module name="demo-spider" />
+        <module name="demo-thread" />
+        <module name="demo-websockets" />
+        <module name="myServe-Common" />
+        <module name="myServe-Service" />
+        <module name="myServe-UI" />
         <module name="myServe-Web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="myServe-Web" target="1.5" />
-      <module name="myServer" target="1.5" />
+      <module name="demo-bit" target="1.8" />
+      <module name="demo-designPatterns" target="1.8" />
+      <module name="demo-dubbo" target="1.8" />
+      <module name="demo-dubbo-client" target="1.8" />
+      <module name="demo-dubbo-server" target="1.8" />
+      <module name="demo-io_nio_socket" target="1.8" />
+      <module name="demo-java8" target="1.8" />
+      <module name="demo-jstackAnalyse" target="1.8" />
+      <module name="demo-nosql" target="1.8" />
+      <module name="demo-proxy" target="1.8" />
+      <module name="demo-spider" target="1.8" />
+      <module name="demo-thread" target="1.8" />
+      <module name="demo-websockets" target="1.8" />
+      <module name="myServe-Common" target="1.8" />
+      <module name="myServe-Service" target="1.8" />
+      <module name="myServe-UI" target="1.8" />
+      <module name="myServe-Web" target="1.8" />
+      <module name="myServer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

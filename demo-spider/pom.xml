@@ -12,4 +12,20 @@
     <artifactId>demo-spider</artifactId>
 
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/edu.uci.ics/crawler4j -->
+        <dependency>
+            <groupId>edu.uci.ics</groupId>
+            <artifactId>crawler4j</artifactId>
+            <version>4.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jumpmind.symmetric/symmetric-csv -->
+        <dependency>
+            <groupId>org.jumpmind.symmetric</groupId>
+            <artifactId>symmetric-csv</artifactId>
+            <version>3.5.19</version>
+        </dependency>
+    </dependencies>
+
 </project>

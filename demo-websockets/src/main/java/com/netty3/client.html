@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<Script>
+		function connect() {  
+		    var socket;  
+		    if (!window.WebSocket) {  
+		        window.WebSocket = window.MozWebSocket;  
+		    }  
+		  
+		    if (window.WebSocket) {  
+		        socket = new WebSocket("ws://192.168.2.72:8080/websocket");  
+		        socket.onmessage = function(event) {  
+		            var ta = document.getElementById('responseText');  
+		            ta.innerHTML = event.data;  
+		        };  
+		    
+		        socket.onopen = function(event) {  
+		            var ta = document.getElementById('responseText');  
+		            ta.innerHTML = "Web Socket opened!";  
+		        };  
+		        
+		        socket.onclose = function(event) {  
+		            var ta = document.getElementById('responseText');  
+		            ta.innerHTML = "Web Socket closed";   
+		        };  
+		    } else {  
+		        alert("Your browser does not support Web Socket.");  
+		    }  
+		}  
+		  
+		$(document).ready(function(){      
+		    connect();  
+		});  
+	</Script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,29 @@
+Spring 在进行反射时候主要有两种策略，一种是直接用 JDK 的反射，另外是用 CgLib 。
+
+cglib是一个开源项目，　是一个强大的,高性能,高质量的Code生成类库,它可以在运行期扩展Java类与实现Java接口。Hibernate用它来实现PO字节码的动态生成。cglib项目主页： http://cglib.sourceforge.net/
+
+CgLib 底层用的 asm
+
+Spring-CGLIB 
+
+Asm 是一个强大的 Java 字节码生成框架，和 BCEL 或者 SERP 很类似，但是小很多，可以动态修改 java 字节码 .
+
+从 obj.getClass().getInterfaces() 可以看出，如果直接用 JDK 的反射需要创建接口，接口是用来搞架构的，但是对于非常非常小的项目去写接口有点麻烦。
+
+而 CgLib 就可以不用接口，它底层调用 asm 动态生成一个代理类去覆盖父类中非 final 的方法，然后实现 MethodInterceptor 接口的 intercept 方法，这样以后直接调用重写的方法，比 JDK 要快。
+
+但是加载 cglib 消耗时间比直接 jdk 反射时间长，开发的过程中，如果是反复动态生成新的代理类推荐用 jdk 自身的反射，反之用 cglib.
+http://blog.csdn.net/mini_snow/article/details/4404558
+
+
+JDK动态代理和CGLIB字节码生成的区别？ 
+JDK动态代理只能对实现了接口的类生成代理，而不能针对类 
+CGLIB是针对类实现代理，主要是对指定的类生成一个子类，覆盖其中的方法 
+因为是继承，所以该类或方法最好不要声明成final 
+http://luyuanliang.iteye.com/blog/1137292
+
+
+反射只能读取类信息，而 ASM 除了读还能写。
+反射读取类信息时需要进行类加载处理，而 ASM 则不需要将类加载到内存中。
+反射相对于 ASM 来说使用方便，想直接操纵 ASM 的话需要有 JVM 指令基础。
+http://bbs.csdn.net/topics/370227284
