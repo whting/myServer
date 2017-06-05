@@ -66,11 +66,11 @@ public class MyThread {
 //                new M_syncBlock().get_NonFair(sycnBlock_obj);// 非公平锁,感觉明显
 
                 /* 五.Volatile 理解 */
-//                new M_Volatile().get_NonSycn();// 反例,非同步。结果: 99967 (丢失了33.出错率 3.3/10000 万分之3)
+//                new M_Volatile().get_NonSycn();// 反例,非同步。结果: 99967/98737 (丢失了33.出错率 3.3/10000 万分之3)
 //                new M_Volatile().get_Sycn(sycnBlock_obj);// 借助`synchronized (sycnBlock_obj)`同步 结果:10*10000=100000
-//                new M_Volatile().get_doubleCheck(sycnBlock_obj);
-                MyThread myThread = new M_Volatile().get_doubleCheck_NonVolatile(sycnBlock_obj);
-                int count = myThread.count;// 处理器会进行指令重排序优化,有可能已经赋值了地址但未初始化实例。见:http://blog.csdn.net/glory1234work2115/article/details/50814419
+                new M_Volatile().get_doubleCheck(sycnBlock_obj);// 实例成功(进入一次)
+//                MyThread myThread = new M_Volatile().get_doubleCheck_NonVolatile(sycnBlock_obj);// 实例成功,已经实例 (进入两次-有概率)
+//                int count = myThread.count;// 处理器会进行指令重排序优化,有可能已经赋值了地址但未初始化实例。见:http://blog.csdn.net/glory1234work2115/article/details/50814419
             }
         };
 
