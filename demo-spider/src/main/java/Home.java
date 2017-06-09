@@ -62,7 +62,7 @@ public class Home {
      */
     public void collect() throws IOException {
         String url = "http://www.tuicool.com/articles/my?pn=";
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             Document document = Jsoup.connect(url + i)
                     .cookies(getCookies())
                     .get();

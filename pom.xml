@@ -28,6 +28,8 @@
         <module>demo-jstackAnalyse</module>
         <module>demo-io_nio_socket</module>
         <module>demo-bit</module>
+        <module>demo-@interface</module>
+        <module>demo-consistentHash</module>
     </modules>
 
     <properties>
