@@ -23,7 +23,8 @@ public class MyThread {
     private static Lock lock_NonFair = new ReentrantLock(false);// 非公平锁(默认)
 
     /* 五.Volatile 理解 */
-    public static volatile int count = 0;
+    public static int count = 0;
+//    public static volatile int count = 0;
 
     public static void main(String[] args) throws InterruptedException {
         threadStart("1");
@@ -55,7 +56,7 @@ public class MyThread {
 //                new M_lock().get(new ReentrantLock());// 不能同步:同步索对象不同(局部变量)
 //                new M_lock().get(lock);// 同步:成员变量
 //                new M_lock().get_tryLock(lock);// 检查是否获得锁
-//                new M_lock().get_tryLock_time(lock);// 一定时间内检查是否获得锁
+                new M_lock().get_tryLock_time(lock);// 一定时间内检查是否获得锁
 //                new M_lock().get_lockInterrup(lock);// 主动释放索.需要配合 `Thread.sleep(1000);` `thread2.interrupt();`
 //                new M_lock().get_ReadWriteLock(rwlock);// 可同时进行读操作
 
@@ -68,8 +69,8 @@ public class MyThread {
                 /* 五.Volatile 理解 */
 //                new M_Volatile().get_NonSycn();// 反例,非同步。结果: 99967/98737 (丢失了33.出错率 3.3/10000 万分之3)
 //                new M_Volatile().get_Sycn(sycnBlock_obj);// 借助`synchronized (sycnBlock_obj)`同步 结果:10*10000=100000
-                new M_Volatile().get_doubleCheck(sycnBlock_obj);// 实例成功(进入一次)
-//                MyThread myThread = new M_Volatile().get_doubleCheck_NonVolatile(sycnBlock_obj);// 实例成功,已经实例 (进入两次-有概率)
+//                new M_Volatile().get_doubleCheck(sycnBlock_obj);// 实例成功(进入一次)
+                MyThread myThread = new M_Volatile().get_doubleCheck_NonVolatile(sycnBlock_obj);// 实例成功,已经实例 (进入两次-有概率)
 //                int count = myThread.count;// 处理器会进行指令重排序优化,有可能已经赋值了地址但未初始化实例。见:http://blog.csdn.net/glory1234work2115/article/details/50814419
             }
         };

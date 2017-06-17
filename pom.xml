@@ -30,16 +30,29 @@
         <module>demo-bit</module>
         <module>demo-@interface</module>
         <module>demo-consistentHash</module>
+        <module>demo-dataStructure</module>
+        <!--<module>demo-spring-boot</module>-->
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
 
         <!-- environment setting -->
         <!--<jdk.version>1.8</jdk.version>-->
         <!--<tomcat.version>2.2</tomcat.version>-->
         <!--<jetty.version>7.6.14.v20131031</jetty.version>-->
     </properties>
+
+    <dependencies>
+        <!-- TEST begin -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <!-- TEST end -->
+    </dependencies>
 
     <!-- 阿里云maven仓库 -->
     <repositories>

@@ -9,6 +9,7 @@
         <module name="demo-@interface" />
         <module name="demo-bit" />
         <module name="demo-consistentHash" />
+        <module name="demo-dataStructure" />
         <module name="demo-designPatterns" />
         <module name="demo-dubbo" />
         <module name="demo-dubbo-client" />
@@ -31,6 +32,7 @@
       <module name="demo-@interface" target="1.8" />
       <module name="demo-bit" target="1.8" />
       <module name="demo-consistentHash" target="1.8" />
+      <module name="demo-dataStructure" target="1.8" />
       <module name="demo-designPatterns" target="1.8" />
       <module name="demo-dubbo" target="1.8" />
       <module name="demo-dubbo-client" target="1.8" />
@@ -41,6 +43,7 @@
       <module name="demo-nosql" target="1.8" />
       <module name="demo-proxy" target="1.8" />
       <module name="demo-spider" target="1.8" />
+      <module name="demo-spring-boot" target="1.8" />
       <module name="demo-thread" target="1.8" />
       <module name="demo-websockets" target="1.8" />
       <module name="myServe-Common" target="1.8" />

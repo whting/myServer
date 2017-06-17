@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo-bit/demo-bit.iml" filepath="$PROJECT_DIR$/demo-bit/demo-bit.iml" />
       <module fileurl="file://G:\liuxiang_code_git\myServer\demo-consistentHash\demo-consistentHah.iml" filepath="G:\liuxiang_code_git\myServer\demo-consistentHash\demo-consistentHah.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-consistentHash/demo-consistentHash.iml" filepath="$PROJECT_DIR$/demo-consistentHash/demo-consistentHash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-dataStructure/demo-dataStructure.iml" filepath="$PROJECT_DIR$/demo-dataStructure/demo-dataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-designPatterns/demo-designPatterns.iml" filepath="$PROJECT_DIR$/demo-designPatterns/demo-designPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-dubbo-client/demo-dubbo-client.iml" filepath="$PROJECT_DIR$/demo-dubbo-client/demo-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-dubbo-server/demo-dubbo-server.iml" filepath="$PROJECT_DIR$/demo-dubbo-server/demo-dubbo-server.iml" />
