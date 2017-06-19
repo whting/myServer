@@ -9,9 +9,9 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Created by Administrator on 2017/5/13 0013.
  */
-public class Test {
+public class Fail_fastOrFail_safe {
 
-    public static void hashtable(){
+    public static void hashtable() {
         Hashtable<String, String> table = new Hashtable<String, String>();
         table.put("a", "aa");
         table.put("b", "bb");
@@ -32,7 +32,7 @@ public class Test {
         System.out.println("-----------");
     }
 
-    public static void hashMap(){
+    public static void hashMap() {
         Lock lock = new ReentrantLock();
 
         // 即使加上lock，还是会跑出ConcurrentModificationException异常
@@ -57,7 +57,7 @@ public class Test {
         lock.unlock();
     }
 
-    public static void concurrentHashMap(){
+    public static void concurrentHashMap() {
         ConcurrentHashMap<String, String> map = new ConcurrentHashMap<String, String>();
         map.put("a", "aa");
         map.put("b", "bb");
@@ -73,20 +73,19 @@ public class Test {
 
     public static void main(String[] args) throws InterruptedException {
 
-//        Test.hashtable();
-//        Test.hashMap();
-        Test.concurrentHashMap();
-
+//        Fail_fastOrFail_safe.hashtable();
+//        Fail_fastOrFail_safe.hashMap();
+        Fail_fastOrFail_safe.concurrentHashMap();
     }
 }
 
 /**
  * Java基础之——快速失败&安全失败（最全的总结） - chtxia的专栏 - 博客频道 - CSDN.NET
  * http://blog.csdn.net/rexct392358928/article/details/51773481
- *
+ * <p>
  * 在java.util包下的都是快速失败。
  * hashtable，hashmap等非并发集合，如果在迭代过程中增减了数据，会快速失败 (一检测到修改，马上抛异常)
- *
+ * <p>
  * 在java.util.concurrent包下的全是安全失败的
  * 并发集合不存在快速失败问题
  */

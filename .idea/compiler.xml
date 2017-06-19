@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-@interface" />
         <module name="demo-bit" />
+        <module name="demo-collection_map" />
         <module name="demo-consistentHash" />
         <module name="demo-dataStructure" />
         <module name="demo-designPatterns" />
         <module name="demo-dubbo" />
         <module name="demo-dubbo-client" />
         <module name="demo-dubbo-server" />
+        <module name="demo-enum" />
         <module name="demo-io_nio_socket" />
         <module name="demo-java8" />
         <module name="demo-jstackAnalyse" />
@@ -31,12 +33,14 @@
     <bytecodeTargetLevel>
       <module name="demo-@interface" target="1.8" />
       <module name="demo-bit" target="1.8" />
+      <module name="demo-collection_map" target="1.8" />
       <module name="demo-consistentHash" target="1.8" />
       <module name="demo-dataStructure" target="1.8" />
       <module name="demo-designPatterns" target="1.8" />
       <module name="demo-dubbo" target="1.8" />
       <module name="demo-dubbo-client" target="1.8" />
       <module name="demo-dubbo-server" target="1.8" />
+      <module name="demo-enum" target="1.8" />
       <module name="demo-io_nio_socket" target="1.8" />
       <module name="demo-java8" target="1.8" />
       <module name="demo-jstackAnalyse" target="1.8" />
