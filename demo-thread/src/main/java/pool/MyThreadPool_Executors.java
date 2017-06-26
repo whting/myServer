@@ -73,7 +73,6 @@ public class MyThreadPool_Executors {
 //        }, 3, TimeUnit.SECONDS);
 
         scheduledThreadPool.scheduleAtFixedRate(new Runnable() {
-
             @Override
             public void run() {
                 System.out.println(Thread.currentThread().getName() + ":" + "delay 1 seconds, and excute every 3 seconds");

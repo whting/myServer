@@ -19,6 +19,7 @@
         <module name="demo-io_nio_socket" />
         <module name="demo-java8" />
         <module name="demo-jstackAnalyse" />
+        <module name="demo-jvm" />
         <module name="demo-nosql" />
         <module name="demo-proxy" />
         <module name="demo-spider" />
@@ -44,6 +45,7 @@
       <module name="demo-io_nio_socket" target="1.8" />
       <module name="demo-java8" target="1.8" />
       <module name="demo-jstackAnalyse" target="1.8" />
+      <module name="demo-jvm" target="1.8" />
       <module name="demo-nosql" target="1.8" />
       <module name="demo-proxy" target="1.8" />
       <module name="demo-spider" target="1.8" />
