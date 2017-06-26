@@ -1,10 +1,9 @@
 package reflect.process;
 
-import java.lang.reflect.Method;
-
+import com.esotericsoftware.reflectasm.MethodAccess;
 import reflect.material.SomeClass;
 
-import com.esotericsoftware.reflectasm.MethodAccess;
+import java.lang.reflect.Method;
 
 public class ReflectasmClient
 {
@@ -30,6 +29,9 @@ public class ReflectasmClient
 		}
 	}
 
+	/**
+	 * asm反射实现
+	 */
 	public static void testReflectAsm()
 	{
 		SomeClass someObject = new SomeClass();
