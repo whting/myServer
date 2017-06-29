@@ -12,6 +12,7 @@ public class HelloServiceConsumer {
     private HelloService helloService;
 
     public String helloFjx(){
+//        return "Hello fengjx";
         return helloService.sayHello("fengjx");
     }
 

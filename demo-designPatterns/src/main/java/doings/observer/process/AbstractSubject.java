@@ -1,9 +1,9 @@
 package doings.observer.process;
 
+import doings.observer.material.Observer;
+
 import java.util.Enumeration;
 import java.util.Vector;
-
-import doings.observer.material.Observer;
 
 public abstract class AbstractSubject implements Subject
 {

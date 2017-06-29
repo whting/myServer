@@ -15,23 +15,23 @@ public class Prototype implements Cloneable, Serializable
 
 	private SerializableObject obj;
 
-	/* Ç³¸´ÖÆ */
+	/* æµ…å¤åˆ¶ */
 	public Object clone() throws CloneNotSupportedException
 	{
 		Prototype proto = (Prototype) super.clone();
 		return proto;
 	}
 
-	/* Éî¸´ÖÆ */
+	/* æ·±å¤åˆ¶ */
 	public Object deepClone() throws IOException, ClassNotFoundException
 	{
 
-		/* Ğ´Èëµ±Ç°¶ÔÏóµÄ¶ş½øÖÆÁ÷ */
+		/* å†™å…¥å½“å‰å¯¹è±¡çš„äºŒè¿›åˆ¶æµ */
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		ObjectOutputStream oos = new ObjectOutputStream(bos);
 		oos.writeObject(this);
 
-		/* ¶Á³ö¶ş½øÖÆÁ÷²úÉúµÄĞÂ¶ÔÏó */
+		/* è¯»å‡ºäºŒè¿›åˆ¶æµäº§ç”Ÿçš„æ–°å¯¹è±¡ */
 		ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
 		ObjectInputStream ois = new ObjectInputStream(bis);
 		return ois.readObject();

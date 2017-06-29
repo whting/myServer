@@ -19,8 +19,12 @@
       <module fileurl="file://$PROJECT_DIR$/demo-kotlin/demo-kotlin.iml" filepath="$PROJECT_DIR$/demo-kotlin/demo-kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-nosql/demo-nosql.iml" filepath="$PROJECT_DIR$/demo-nosql/demo-nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-proxy/demo-proxy.iml" filepath="$PROJECT_DIR$/demo-proxy/demo-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-rmi/demo-rmi.iml" filepath="$PROJECT_DIR$/demo-rmi/demo-rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spider/demo-spider.iml" filepath="$PROJECT_DIR$/demo-spider/demo-spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-thread/demo-thread.iml" filepath="$PROJECT_DIR$/demo-thread/demo-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-webService/demo-webService.iml" filepath="$PROJECT_DIR$/demo-webService/demo-webService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-webService_web_client/demo-webService_web_client.iml" filepath="$PROJECT_DIR$/demo-webService_web_client/demo-webService_web_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-webService_web_server/demo-webService_web_server.iml" filepath="$PROJECT_DIR$/demo-webService_web_server/demo-webService_web_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-websockets/demo-websockets.iml" filepath="$PROJECT_DIR$/demo-websockets/demo-websockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/myServe-Common/myServe-Common.iml" filepath="$PROJECT_DIR$/myServe-Common/myServe-Common.iml" />
       <module fileurl="file://$PROJECT_DIR$/myServe-Service/myServe-Service.iml" filepath="$PROJECT_DIR$/myServe-Service/myServe-Service.iml" />

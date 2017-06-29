@@ -31,7 +31,6 @@ public class CountProxy implements Count
 		// 调用委托类的方法;
 		countImpl.updateCount();
 		System.out.println("事务处理之后");
-
 	}
 
 }

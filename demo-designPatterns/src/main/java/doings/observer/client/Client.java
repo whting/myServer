@@ -11,10 +11,10 @@ public class Client
 	public static void main(String[] args)
 	{
 		Subject sub = new MySubject();
-		sub.add(new Observer1());
-		sub.add(new Observer2());
+		sub.add(new Observer1());// 订阅
+		sub.add(new Observer2());// 订阅
 
-		sub.operation();
+		sub.operation();// 发布
 	}
 
 }

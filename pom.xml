@@ -34,6 +34,8 @@
         <module>demo-collection_map</module>
         <module>demo-enum</module>
         <module>demo-jvm</module>
+        <module>demo-webService</module>
+        <module>demo-rmi</module>
         <!--<module>demo-spring-boot</module>-->
     </modules>
 

@@ -30,8 +30,7 @@ public class BookFacadeProxy implements InvocationHandler
 	{
 		Object result = null;
 		System.out.println("事物开始");
-		// 执行方法
-		result = method.invoke(target, args);
+		result = method.invoke(proxy, args);// 执行方法
 		System.out.println("事物结束");
 		return result;
 	}

@@ -15,11 +15,11 @@ public class Singleton {
 }  
   
 /* 
-    Ԥ�ȼ��ط� 
-    �ŵ㣺1.�̰߳�ȫ��, 
-          2.������ص�ͬʱ�Ѿ�������һ����̬����,����ʱ��Ӧ�ٶȿ졣 
+    预先加载法 
+    优点：1.线程安全的, 
+          2.在类加载的同时已经创建好一个静态对象,调用时反应速度快。 
  
-    ȱ�㣺 ��Դ����Ч�ʲ��ߣ������������������Ҫʹ��Ҳ��ϵͳ���� 
+    缺点： 资源利用效率不高，可能这个单例不会需要使用也被系统加载 
  */  
 class S1 {  
     private S1() {  
@@ -35,9 +35,9 @@ class S1 {
 }  
   
 /* 
-    initialization on demand,�ӳټ��ط�  (���Ƕ��߳�) 
-    �ŵ㣺1.��Դ�����ʸ� 
-    ȱ�㣺��һ�μ����Ƿ�Ӧ����  �����߳�ʹ�ò���Ҫ��ͬ�������� 
+    initialization on demand,延迟加载法  (考虑多线程) 
+    优点：1.资源利用率高 
+    缺点：第一次加载是发应不快  ，多线程使用不必要的同步开销大 
  
  */  
 class S2 {  
@@ -55,9 +55,9 @@ class S2 {
   
   
 /* 
-    initialization on demand - double check �ӳټ��ط��Ľ�֮˫�ؼ��  (���Ƕ��߳�) 
-    �ŵ㣺1.��Դ�����ʸ� 
-    ȱ�㣺��һ�μ����Ƿ�Ӧ����  ������java �ڴ�ģ��һЩԭ��ż����ʧ�� 
+    initialization on demand - double check 延迟加载法改进之双重检测  (考虑多线程) 
+    优点：1.资源利用率高 
+    缺点：第一次加载是发应不快  ，由于java 内存模型一些原因偶尔会失败 
  
  */  
 class S3 {  
@@ -80,9 +80,9 @@ class S3 {
   
   
 /* 
-   initialization on demand holder  (���Ƕ��߳�) 
-   �ŵ㣺1.��Դ�����ʸ� 
-   ȱ�㣺��һ�μ����Ƿ�Ӧ���� 
+   initialization on demand holder  (考虑多线程) 
+   优点：1.资源利用率高 
+   缺点：第一次加载是发应不快 
  
 */  
 class S4 {  

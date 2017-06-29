@@ -29,7 +29,7 @@ public class NioTcpServer extends Thread {
     @Override
     public void run() {
         try {
-            Selector selector = Selector.open(); // 打开选择器  
+            Selector selector = Selector.open(); // 打开nio-选择器
             ServerSocketChannel serverSocketChannel = ServerSocketChannel.open(); // 打开通道  
             serverSocketChannel.configureBlocking(false); // 非阻塞  
             serverSocketChannel.socket().bind(inetSocketAddress);

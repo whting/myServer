@@ -1,10 +1,10 @@
 package cglib.process;
 
-import java.lang.reflect.Method;
-
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
+
+import java.lang.reflect.Method;
 
 /** 
  * 使用cglib动态代理 
@@ -28,7 +28,7 @@ public class BookFacadeCglib implements MethodInterceptor {
         // 回调方法  
         enhancer.setCallback(this);  
         // 创建代理对象  
-        return enhancer.create();  
+        return enhancer.create();
     }  
   
     @Override  

@@ -1,9 +1,9 @@
 package create.builder.client;
 
-import java.util.List;
-
 import create.builder.material.Sender;
 import create.builder.process.Builder;
+
+import java.util.List;
 
 public class Client
 {
@@ -13,8 +13,7 @@ public class Client
 		builder.produceMailSender(10);
 		
 		List<Sender> list = builder.getList();
-		for (Sender sender : list)
-		{
+		for (Sender sender : list){
 			sender.Send();
 		}
 		

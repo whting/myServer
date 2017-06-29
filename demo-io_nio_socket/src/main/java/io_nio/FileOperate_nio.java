@@ -135,7 +135,7 @@ public class FileOperate_nio {
             // 获取源文件和目标文件的输入输出流    
             in = new FileInputStream(filePath);
             out = new FileOutputStream("d:/work/readFileByBybeBuffer.txt");
-            // 获取输入输出通道  
+            // 获取输入输出通道(nio-Channel)
             FileChannel fcIn = in.getChannel();
             FileChannel fcOut = out.getChannel();
             ByteBuffer buffer = ByteBuffer.allocate(1024);
@@ -172,10 +172,10 @@ public class FileOperate_nio {
 
     public static void main(String args[]) {
         long time1 = getTime() ;
-        // readFileByByte(FILE_PATH);// 8734,8281,8000,7781,8047
-        // readFileByCharacter(FILE_PATH);// 734, 437, 437, 438, 422
-        // readFileByLine(FILE_PATH);// 110, 94,  94,  110, 93
-        readFileByBybeBuffer(FILE_PATH);// 125, 78,  62,  78, 62
+         readFileByByte(FILE_PATH);// 字节 8734,8281,8000,7781,8047
+         readFileByCharacter(FILE_PATH);// 字符 734, 437, 437, 438, 422
+         readFileByLine(FILE_PATH);// 行读 110, 94,  94,  110, 93
+        readFileByBybeBuffer(FILE_PATH);// nio-Chanel 125, 78,  62,  78, 62
         long time2 = getTime() ;
         System.out.println(time2-time1);
     }

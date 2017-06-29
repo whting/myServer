@@ -11,5 +11,29 @@
 
     <artifactId>demo-io_nio_socket</artifactId>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.12.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- websocket(备用方案：在项目引入当前运行的tomcatlib中添加websocket-api) -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-websocket-api</artifactId>
+            <version>8.5.12</version>
+        </dependency>
+        <!-- WEB end -->
+
+    </dependencies>
 
 </project>
