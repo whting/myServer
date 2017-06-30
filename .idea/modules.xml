@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo-java8/demo-java8.iml" filepath="$PROJECT_DIR$/demo-java8/demo-java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-jstackAnalyse/demo-jstackAnalyse.iml" filepath="$PROJECT_DIR$/demo-jstackAnalyse/demo-jstackAnalyse.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-jvm/demo-jvm.iml" filepath="$PROJECT_DIR$/demo-jvm/demo-jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-kafka/demo-kafka.iml" filepath="$PROJECT_DIR$/demo-kafka/demo-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-kotlin/demo-kotlin.iml" filepath="$PROJECT_DIR$/demo-kotlin/demo-kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-nosql/demo-nosql.iml" filepath="$PROJECT_DIR$/demo-nosql/demo-nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-proxy/demo-proxy.iml" filepath="$PROJECT_DIR$/demo-proxy/demo-proxy.iml" />

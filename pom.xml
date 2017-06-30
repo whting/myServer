@@ -36,6 +36,7 @@
         <module>demo-jvm</module>
         <module>demo-webService</module>
         <module>demo-rmi</module>
+        <module>demo-kafka</module>
         <!--<module>demo-spring-boot</module>-->
     </modules>
 
