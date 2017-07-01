@@ -1,4 +1,4 @@
-package kafka_hadoop;
+package example3;
 
 public class ConfigureAPI {
 

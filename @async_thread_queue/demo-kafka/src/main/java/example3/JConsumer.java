@@ -1,4 +1,4 @@
-package kafka_hadoop;
+package example3;
 
 import kafka.consumer.Consumer;
 import kafka.consumer.ConsumerConfig;
