@@ -16,6 +16,7 @@
         <module name="demo-dubbo" />
         <module name="demo-dubbo-client" />
         <module name="demo-dubbo-server" />
+        <module name="demo-EJB" />
         <module name="demo-enum" />
         <module name="demo-io_nio_socket" />
         <module name="demo-java8" />
@@ -47,6 +48,7 @@
       <module name="demo-dubbo" target="1.8" />
       <module name="demo-dubbo-client" target="1.8" />
       <module name="demo-dubbo-server" target="1.8" />
+      <module name="demo-EJB" target="1.8" />
       <module name="demo-enum" target="1.8" />
       <module name="demo-io_nio_socket" target="1.8" />
       <module name="demo-java8" target="1.8" />

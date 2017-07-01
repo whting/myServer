@@ -12,6 +12,7 @@ public class Client
 {
 	public static void main(String[] args) throws Throwable {
 		CountImpl countImpl = new CountImpl();
+
 		// 方法覆盖代理
 		Count countProxy = new CountProxy(countImpl);
 		countProxy.updateCount();
