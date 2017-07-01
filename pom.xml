@@ -44,7 +44,7 @@
         <module>@nosql/demo-nosql</module>
 
         <module>demo-designPatterns</module>
-        <module>@rpc/demo-socket</module>
+        <module>@rpc/demo-rpc_socket</module>
 
         <!--<module>demo-spring-boot</module>-->
     </modules>
