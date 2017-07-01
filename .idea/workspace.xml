@@ -1,8 +1,324 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c009b985-cc85-4f82-834f-5a6736bf839c" name="Default" comment="">
+    <list default="true" id="c009b985-cc85-4f82-834f-5a6736bf839c" name="Default" comment="分类型">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-bit/demo-bit.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/demo-designPatterns.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/process/crud0906/单例模式、双检测锁定DCL、volatile（转） - 一个普通的程序员 - ITeye技术网站.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/process/yiminghe/Java 单例模式探讨 - { focus   web } - ITeye技术网站.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Context.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Expression.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Minus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Plus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/解释器模式（Interpreter）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/material/AbstractHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/material/Handler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/material/MyHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/责任链模式（Chain of Responsibility）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/strategy/material/ICalculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/strategy/策略模式（strategy）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/material/Plus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/process/AbstractCalculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/模板方法模式（Template Method）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material/Source.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material/Targetable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material2/SourceSub1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material2/SourceSub2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material2/Sourceable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/process/Adapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/process/Wrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/process/Wrapper2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/适配器模式(Adapter).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/material/SourceSub1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/material/SourceSub2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/material/Sourceable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/process/Bridge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/process/MyBridge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/桥接模式（Bridge）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/composite/client/Tree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/composite/material/TreeNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/composite/组合模式（Composite）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/material/Source.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/material/Sourceable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/process/Decorator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/装饰模式（Decorator）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/material/CPU.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/material/Disk.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/material/Memory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/process/Computer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/外观模式（Facade）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/flyweight/process/ConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/flyweight/享元模式（Flyweight）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/material/Source.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/material/Sourceable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/process/Proxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/代理模式（Proxy）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/开发中的23种设计模式详解 - ITeye技术网站.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/demo-io_nio_socket.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-java8/demo-java8.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/demo-jstackAnalyse.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-nosql/demo-nosql.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-proxy/demo-proxy.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/java动态代理（JDK和cglib） - C'est la vie - 博客园.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/Java 下高效的反射工具包 ReflectASM 使用例解   隔叶黄莺 Unmi Blog - 软件编程实践.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-spider/demo-spider.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-thread/demo-thread.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/demo-websockets.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/ReadMe.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageInbound.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageInboundPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/websocket.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt" afterPath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/READEME.md" afterPath="$PROJECT_DIR$/@java/demo-at_interface/READEME.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-at_interface/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/Main.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/MyDescription.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescription.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/MyDescriptionHandle.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescriptionHandle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/MyDescriptionHandleCglib.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescriptionHandleCglib.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-bit/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BinaryHandle.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BinaryHandle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitBase.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitCompute.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitCompute.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitStatus.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitTest.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/READEME.md" afterPath="$PROJECT_DIR$/@data/demo-collection_map/READEME.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/pom.xml" afterPath="$PROJECT_DIR$/@data/demo-collection_map/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/Fail_fastOrFail_safe.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/Fail_fastOrFail_safe.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/collection/Colletion_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/collection/Colletion_demo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/comparator/comparator_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/comparator/comparator_demo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/concurrent/Concurrent_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/concurrent/Concurrent_demo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/map/HashMap_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/map/HashMap_demo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/README.md" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/pom.xml" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/src/main/java/ConsistentHashingWithoutVirtualNode.java" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/src/main/java/ConsistentHashingWithoutVirtualNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/src/main/java/Shared.java" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/src/main/java/Shared.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/README.md" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/pom.xml" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarySearchTree/BinarySearchTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarySearchTree/BinarySearchTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarySearchTree/BinarySortTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarySearchTree/BinarySortTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binaryTree/v1/BinaryTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binaryTree/v1/BinaryTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binaryTree/v2/BTNode.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binaryTree/v2/BTNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binaryTree/v2/BinTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binaryTree/v2/BinTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarysearch/BinarySearchTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarysearch/BinarySearchTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarysearch/Node.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarysearch/Node.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/redblack/RBTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/redblack/RBTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/redblack/RBTreeTest.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/redblack/RBTreeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/redblack/红黑树.md" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/redblack/红黑树.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/java/com/fengjx/dubbo/service/HelloServiceConsumer.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/java/com/fengjx/dubbo/service/HelloServiceConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/log4j.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/spring-beans.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring-consumer.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/spring-consumer.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/spring.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/webapp/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/test/java/com/fengjx/dubbo/service/HelloServiceConsumerTest.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/test/java/com/fengjx/dubbo/service/HelloServiceConsumerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/test/java/com/fengjx/main/Consumer.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/test/java/com/fengjx/main/Consumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/README.md" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/HelloService.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/HelloService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/impl/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/impl/HelloServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/log4j.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/spring-beans.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/spring-dubbo-provider.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/spring.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/webapp/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/test/java/com/fengjx/main/Provider.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/test/java/com/fengjx/main/Provider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-enum/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-enum/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-enum/src/main/java/Enum_demo.java" afterPath="$PROJECT_DIR$/@java/demo-enum/src/main/java/Enum_demo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/READEME.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/READEME.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/FileOperate.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/io_nio/FileOperate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/FileOperate_nio.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/io_nio/FileOperate_nio.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/io_nio/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ChatServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/ChatServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ChatServerInitializer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/ChatServerInitializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/HttpRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/HttpRequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ReadMe.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/TextWebSocketFrameHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/TextWebSocketFrameHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/WebSocketRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/WebSocketRequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/index.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket/TalkClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket/TalkClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket/TalkServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket/TalkServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/NioTcpClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_nio/NioTcpClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/NioTcpServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_nio/NioTcpServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_nio/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/FilmClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/FilmServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmServerNewThread.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/FilmServerNewThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/MyWebSocket.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/websocket_tomcat/MyWebSocket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/websocket_tomcat/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/index_websocketClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/websocket_tomcat/index_websocketClient.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/ReadMe.md" afterPath="$PROJECT_DIR$/@java/demo-java8/ReadMe.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-java8/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/builtInFunction/BuiltInFunction.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/builtInFunction/BuiltInFunction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/functionalInterface/Func.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/functionalInterface/Func.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/interfaceDefault/Formula.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/interfaceDefault/Formula.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaForEach.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaForEach.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaSort.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaStream.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaThread.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/Readme.md" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/Test.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/optional/MyOptional.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/optional/MyOptional.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/optional/MyOptionalExample.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/optional/MyOptionalExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/optional/User.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/optional/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/twoColons/TwoColonsNew.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/twoColons/TwoColonsNew.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/twoColons/TwoColonsUtil.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/twoColons/TwoColonsUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/pom.xml" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/src/main/java/jstackAnalyse_asia.java" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/src/main/java/jstackAnalyse_asia.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/src/main/java/jstackAnalyse_huawei.java" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/src/main/java/jstackAnalyse_huawei.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/src/main/java/jstackAnalyse_wosai.java" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/src/main/java/jstackAnalyse_wosai.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jvm/pom.xml" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jvm/src/main/java/Finalize.java" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/Finalize.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ConsumerDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerMsgTask.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ConsumerMsgTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/PartitionerDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/PartitionerDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/ProducerDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ProducerDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example2/KafkaConsumer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example2/KafkaConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example2/KafkaProducer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example2/KafkaProducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/ConfigureAPI.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/ConfigureAPI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/JProducer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JProducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kotlin/src/hello.kt" afterPath="$PROJECT_DIR$/@kotlin/demo-kotlin/src/hello.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-nosql/pom.xml" afterPath="$PROJECT_DIR$/@nosql/demo-nosql/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-nosql/src/main/java/java/liux/nosql/redis/App.java" afterPath="$PROJECT_DIR$/@nosql/demo-nosql/src/main/java/java/liux/nosql/redis/App.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-nosql/src/main/java/java/liux/nosql/redis/RedisClient.java" afterPath="$PROJECT_DIR$/@nosql/demo-nosql/src/main/java/java/liux/nosql/redis/RedisClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-proxy/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/client/Client.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/client/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/material/Count.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/material/Count.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/material/CountImpl.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/material/CountImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/process/CountProxy.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/process/CountProxy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/process/CountProxy2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/process/CountProxy2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/process/MyInvocationHandler.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/process/MyInvocationHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/client/Client.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/client/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/material/BookFacade.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/material/BookFacade.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/material/BookFacadeImpl.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/material/BookFacadeImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/process/BookFacadeCglib.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/process/BookFacadeCglib.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/hessian/Hessian 远程代理.txt" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/hessian/Hessian 远程代理.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/client/Client.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/client/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/material/BookFacade.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/material/BookFacade.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/material/BookFacadeImpl.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/material/BookFacadeImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/process/BookFacadeProxy.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/process/BookFacadeProxy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/README.md" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material/SomeClass.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material/SomeClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material2/InvokeTester.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material2/InvokeTester.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/Private.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/Private.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/Private2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/Private2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/TestPrivate.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/TestPrivate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/TestPrivate2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/TestPrivate2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/java反射机制学习 - super-d2 - 博客园.txt" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/java反射机制学习 - super-d2 - 博客园.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/process/ReflectasmClient.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/process/ReflectasmClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/process/ReflectasmClient2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/process/ReflectasmClient2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/serializable/MyTest.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/serializable/MyTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/serializable/MyTest_static.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/serializable/MyTest_static.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/HelloImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/HelloImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/HelloServer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/HelloServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/Hello_RMI_Client.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/Hello_RMI_Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/IHello.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/IHello.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/README.md" afterPath="$PROJECT_DIR$/@app/demo-spider/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/pom.xml" afterPath="$PROJECT_DIR$/@app/demo-spider/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/Home.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/Home.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/crawler/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/crawler/Controller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/crawler/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/crawler/MyCrawler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/czwlzx_com.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/czwlzx_com.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo/Controller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo/MyCrawler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo_third/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo_third/Controller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo_third/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo_third/MyCrawler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo_third/README.md" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo_third/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/question/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/question/Controller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/question/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/question/MyCrawler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/question/README.md" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/question/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/MyThread.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/MyThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/MyThreadPool_Executors.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/MyThreadPool_Executors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/Test_ThreadPool.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/Test_ThreadPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/ThreadPool.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/ThreadPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/ThreadPoolDiagnose.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/ThreadPoolDiagnose.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/priority/MyPriorityThreadPool.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/priority/MyPriorityThreadPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/queue/MyPriorityQueue.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/queue/MyPriorityQueue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/queue/PriorityBlockingQueueDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/queue/PriorityBlockingQueueDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-webService/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/HelloWorld.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/HelloWorld.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/HelloWorld.wsdl" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorld.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/ClientAxis.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/ClientAxis.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorld.wsdl" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorld.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorldService.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorldServiceLocator.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldServiceLocator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorldSoapBindingStub.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldSoapBindingStub.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorld_PortType.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorld_PortType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/webapp/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/test/java/WebServiceTest.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/test/java/WebServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorld.wsdl" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/HelloWorld.wsdl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldService.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldServiceLocator.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldServiceLocator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldSoapBindingStub.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldSoapBindingStub.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorld_PortType.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorld_PortType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/example/HelloWorldClient.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/example/HelloWorldClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/src/example/HelloWorld.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/src/example/HelloWorld.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/web/WEB-INF/server-config.wsdd" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/web/WEB-INF/server-config.wsdd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/web/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/web/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/web/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/androidSocket/androidSocketServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/androidSocket/androidSocketServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/byteslounge/websockets/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/byteslounge/websockets/ReadMe.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/byteslounge/websockets/WebSocketTest.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/byteslounge/websockets/WebSocketTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/ReadMe.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/WebSocketServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/WebSocketServerHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServerHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/WebSocketServerPipelineFactory.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServerPipelineFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/client.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/client.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/ChatServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ChatServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/ChatServerInitializer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ChatServerInitializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/HttpRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/HttpRequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/ReadMe.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/TextWebSocketFrameHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/TextWebSocketFrameHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/WebSocketRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/WebSocketRequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/index.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socket/TalkClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socket/TalkClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socket/TalkServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socket/TalkServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socketOfwebSocket/EchoServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socketOfwebSocket/EchoServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socketOfwebSocket/echoClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/echoClient.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/MyClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/MyClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/MyClientApp.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/MyClientApp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/ReadMe.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/SessionUtils.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/SessionUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/WebsocketEndPoint.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/WebsocketEndPoint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/websocket_tomcat/MyWebSocket.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/websocket_tomcat/MyWebSocket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/websocket_tomcat/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/websocket_tomcat/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/websocket_tomcat/index_websocketClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/websocket_tomcat/index_websocketClient.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/echoClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socketOfwebSocket/echoClient.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/page.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/page.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/websocket.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/websocket.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +350,27 @@
     <ignored path="$PROJECT_DIR$/demo-webService/target/" />
     <ignored path="$PROJECT_DIR$/demo-rmi/target/" />
     <ignored path="$PROJECT_DIR$/demo-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/@rpc/demo-rmi/target/" />
+    <ignored path="$PROJECT_DIR$/@async_thread_queue/demo-thread/target/" />
+    <ignored path="$PROJECT_DIR$/@data/demo-collection_map/target/" />
+    <ignored path="$PROJECT_DIR$/@rpc/demo-dubbo-client/target/" />
+    <ignored path="$PROJECT_DIR$/@data/demo-consistentHash/target/" />
+    <ignored path="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/target/" />
+    <ignored path="$PROJECT_DIR$/@java/demo-@interface/target/" />
+    <ignored path="$PROJECT_DIR$/@nosql/demo-nosql/target/" />
+    <ignored path="$PROJECT_DIR$/@app/demo-spider/target/" />
+    <ignored path="$PROJECT_DIR$/@java/demo-enum/target/" />
+    <ignored path="$PROJECT_DIR$/@rpc/demo-webService/target/" />
+    <ignored path="$PROJECT_DIR$/@async_thread_queue/demo-websockets/target/" />
+    <ignored path="$PROJECT_DIR$/@rpc/demo-dubbo-server/target/" />
+    <ignored path="$PROJECT_DIR$/@java/demo-bit/target/" />
+    <ignored path="$PROJECT_DIR$/@data/demo-dataStructure/target/" />
+    <ignored path="$PROJECT_DIR$/@java/demo-proxy/target/" />
+    <ignored path="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/target/" />
+    <ignored path="$PROJECT_DIR$/@java/demo-java8/target/" />
+    <ignored path="$PROJECT_DIR$/@jvm/demo-jvm/target/" />
+    <ignored path="$PROJECT_DIR$/@async_thread_queue/demo-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/@java/demo-at_interface/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +385,48 @@
     <SUITE FILE_PATH="coverage/myServer$HelloKt.coverage" NAME="HelloKt Coverage Results" MODIFIED="1496827825319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWorldService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldService.java">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdk反射与cglib反射的区别.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="38">
+              <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-designPatterns/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="单例模式（Singleton）.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -71,7 +444,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>BeanDefinition</find>
       <find>The service</find>
       <find>dubbo.protocol.name</find>
       <find>service ready</find>
@@ -101,6 +473,7 @@
       <find>page_visits</find>
       <find>group</find>
       <find>Segment</find>
+      <find>ne</find>
     </findStrings>
     <dirStrings>
       <dir>G:\liuxiang_code_git\myServer\demo-dubbo-server</dir>
@@ -124,22 +497,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring-consumer.xml" />
-        <option value="$PROJECT_DIR$/demo-dubbo-client/src/main/java/com/fengjx/dubbo/service/HelloServiceConsumer.java" />
-        <option value="$PROJECT_DIR$/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/impl/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/demo-webService_server/src/test/java/webServiceTest.java" />
-        <option value="$PROJECT_DIR$/demo-webService_server/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-webService_server/src/main/java/HelloWorld.wsdl" />
-        <option value="$PROJECT_DIR$/demo-webService_server/src/test/java/Client.java" />
-        <option value="$PROJECT_DIR$/demo-webService_server/src/test/java/client/test/Client.java" />
         <option value="$PROJECT_DIR$/demo-webService_server/src/main/java/HelloWorldWS.java" />
         <option value="$PROJECT_DIR$/demo-webService_server/src/test/java/WebServiceTest.java" />
         <option value="$PROJECT_DIR$/demos/demo-webService_server2/src/example/HelloWorld.java" />
         <option value="$PROJECT_DIR$/demo-webService_server/src/main/java/demo2/HelloWorld.java" />
         <option value="$PROJECT_DIR$/demo-webService_server/src/main/java/client/test/Client.java" />
         <option value="$PROJECT_DIR$/demo-webService_server/src/main/java/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo-webService/src/main/java/client/test/client.java" />
         <option value="$PROJECT_DIR$/demo-webService/src/main/java/client/client.java" />
         <option value="$PROJECT_DIR$/demo-webService/src/main/java/client.java" />
@@ -175,6 +538,16 @@
         <option value="$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerMsgTask.java" />
         <option value="$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerDemo.java" />
         <option value="$PROJECT_DIR$/demo-kafka/src/main/java/example/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/@kotlin/demo-kotlin/src/hello.kt" />
+        <option value="$PROJECT_DIR$/@rpc/demo-dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/TextWebSocketFrameHandler.java" />
+        <option value="$PROJECT_DIR$/@async_thread_queue/demo-websockets/pom.xml" />
+        <option value="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java" />
+        <option value="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java" />
+        <option value="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/README.md" />
+        <option value="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt" />
+        <option value="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt" />
       </list>
     </option>
   </component>
@@ -186,11 +559,31 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-dubbo-client Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-dubbo-client Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-dubbo-client Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.alibaba:dubbo:2.5.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -213,7 +606,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,10 +614,16 @@
               <item name="myServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="myServer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myServer" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-designPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -237,7 +635,7 @@
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2955056" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/demo-bit/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-webService_web_client/lib/wsdl4j-1.5.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/@rpc/demo-webService_web_server/lib/wsdl4j-1.5.1.jar!/" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -245,8 +643,12 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pool" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\liuxiang_code_git\myServer" />
+      <recent name="G:\liuxiang_code_git\myServer\@rpc" />
+      <recent name="G:\liuxiang_code_git\myServer\@kotlin" />
+      <recent name="G:\liuxiang_code_git\myServer\@nosql" />
+      <recent name="G:\liuxiang_code_git\myServer\@app" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -265,11 +667,8 @@
       <recent name="Simple.process" />
       <recent name="queue" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\liuxiang_code_git\myServer\demo-webService_server\src\test\java\client" />
-      <recent name="G:\liuxiang_code_git\myServer\demo-websockets\src\main\webapp" />
-      <recent name="G:\liuxiang_code_git\myServer\demo-dubbo-server\src\main\webapp" />
-      <recent name="G:\liuxiang_code_git\myServer\demo-java8" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pool" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,87 +683,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemo">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="example.ConsumerDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-kafka" />
-      <envs />
-    </configuration>
-    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HelloServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-rmi" />
-      <envs />
-    </configuration>
-    <configuration name="Hello_RMI_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Hello_RMI_Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-rmi" />
-      <envs />
-    </configuration>
-    <configuration name="KafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="example2.KafkaProducer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-kafka" />
-      <envs />
-    </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="example.ProducerDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-kafka" />
-      <envs />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -743,22 +1062,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.HelloServer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Hello_RMI_Client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.KafkaProducer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ProducerDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConsumerDemo" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProducerDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ConsumerDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.KafkaProducer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Hello_RMI_Client" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HelloServer" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -815,7 +1118,8 @@
       <workItem from="1498728950496" duration="170000" />
       <workItem from="1498740564240" duration="27000" />
       <workItem from="1498799595248" duration="4950000" />
-      <workItem from="1498807185086" duration="5789000" />
+      <workItem from="1498807185086" duration="6987000" />
+      <workItem from="1498874495585" duration="7529000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1494657449760</created>
@@ -845,7 +1149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498815537352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update workspace.xml">
+      <created>1498815797309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498815797309</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -881,7 +1192,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200584000" />
+    <option name="totallyTimeSpent" value="209311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,11 +1204,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13842663" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44780636" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -906,16 +1217,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37171054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38157895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29769737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31694403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33358547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="535" y="60" width="296" height="608" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37335527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -941,7 +1252,9 @@
     <MESSAGE value="PriorityThreadPool" />
     <MESSAGE value="update reflect" />
     <MESSAGE value="demo-kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo-kafka" />
+    <MESSAGE value="update workspace.xml" />
+    <MESSAGE value="分类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="分类型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,276 +1274,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-rmi/src/main/java/HelloServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/FileOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="261" column="22" lean-forward="false" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="154" column="22" lean-forward="false" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="394" column="16" lean-forward="false" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/FileOperate_nio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="142" column="45" lean-forward="false" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ChatServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/HttpRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/TextWebSocketFrameHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/WebSocketRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-websockets/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/MyWebSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket/TalkClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/NioTcpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/net/InetSocketAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="214" column="11" lean-forward="false" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="126" column="11" lean-forward="false" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket/TalkServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12122">
-          <caret line="695" column="29" lean-forward="false" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3401">
-          <caret line="205" column="22" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/NioTcpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmServerNewThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1.jar!/kafka/producer/Partitioner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/example.ConsumerDemo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>example.ConsumerDemo</OriginalElement>
-          <nodes>
-            <node x="1.5" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="207.0" y="162.0">example.PartitionerDemo</node>
-            <node x="224.5" y="81.0">kafka.producer.Partitioner</node>
-            <node x="212.0" y="0.0">scala.reflect.ScalaSignature</node>
-            <node x="223.0" y="241.0">example.ProducerDemo</node>
-            <node x="4.0" y="238.0">example.ConsumerDemo</node>
-            <node x="29.0" y="81.0">java.lang.Runnable</node>
-            <node x="0.0" y="162.0">example.ConsumerMsgTask</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="example.PartitionerDemo" target="kafka.producer.Partitioner">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="example.ConsumerMsgTask" target="java.lang.Runnable">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="kafka.producer.Partitioner" target="scala.reflect.ScalaSignature">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-38.0" y="99.0" />
-          <SelectedNodes>
-            <node>example.ConsumerMsgTask</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="263" column="14" lean-forward="false" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/ZkClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -1245,15 +1288,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/ConfigureAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/JProducer.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1263,27 +1298,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/example2/KafkaConsumer.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example2/KafkaConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="36" />
@@ -1295,7 +1310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/example2/KafkaProducer.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example2/KafkaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="39" />
@@ -1309,10 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="189" column="39" lean-forward="true" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
-          <folding>
-            <element signature="e#11221#11222#0" expanded="true" />
-            <element signature="e#11267#11268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="87" column="68" lean-forward="true" selection-start-line="87" selection-start-column="68" selection-end-line="87" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,15 +1345,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3">
           <caret line="429" column="19" lean-forward="false" selection-start-line="429" selection-start-column="19" selection-end-line="429" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerMsgTask.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ConsumerMsgTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,40 +1359,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/example/PartitionerDemo.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/PartitionerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerDemo.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="55" />
-          <folding>
-            <element signature="e#1089#1106#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/src/main/java/example/ProducerDemo.java">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#1323#1339#0" expanded="true" />
-            <element signature="e#1699#1715#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-kafka/README.md">
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="399">
@@ -1396,10 +1394,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldService.java">
+    <entry file="file://$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-at_interface/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescriptionHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescriptionHandleCglib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@kotlin/demo-kotlin/src/hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/java/com/fengjx/dubbo/service/HelloServiceConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/WebsocketEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/SessionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/MyClientApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="64" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageInbound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocketByTomcat7/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@rpc/demo-dubbo-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/TextWebSocketFrameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/HttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="66" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/ConfigureAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar!/org/jboss/netty/channel/socket/nio/NioServerSocketChannelFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/Java 下高效的反射工具包 ReflectASM 使用例解   隔叶黄莺 Unmi Blog - 软件编程实践.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/java动态代理（JDK和cglib） - C'est la vie - 博客园.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-designPatterns/开发中的23种设计模式详解 - ITeye技术网站.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-designPatterns/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/process/yiminghe/Java 单例模式探讨 - { focus   web } - ITeye技术网站.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/process/crud0906/单例模式、双检测锁定DCL、volatile（转） - 一个普通的程序员 - ITeye技术网站.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1458,7 +1751,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>demo-webService</last-edited>
+          <last-edited>demo-dubbo-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1482,7 +1775,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JAX-WS-Apache Axis</last-edited>
+          <last-edited>Maven: org.jboss.netty:netty:3.2.5.Final</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

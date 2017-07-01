@@ -16,27 +16,35 @@
         <module>myServe-Web</module>
         <module>myServe-UI</module>
 
-        <module>demo-java8</module>
-        <module>demo-dubbo-server</module>
-        <module>demo-dubbo-client</module>
-        <module>demo-thread</module>
-        <module>demo-proxy</module>
-        <module>demo-spider</module>
+        <module>@java/demo-java8</module>
+        <module>@java/demo-proxy</module>
+        <module>@java/demo-enum</module>
+        <module>@java/demo-bit</module>
+        <module>@java/demo-at_interface</module>
+
+        <module>@rpc/demo-dubbo-server</module>
+        <module>@rpc/demo-dubbo-client</module>
+        <module>@rpc/demo-webService</module>
+        <module>@rpc/demo-rmi</module>
+
+        <module>@async_thread_queue/demo-thread</module>
+        <module>@async_thread_queue/demo-kafka</module>
+        <module>@async_thread_queue/demo-websockets</module>
+        <module>@async_thread_queue/demo-io_nio_socket</module>
+
+        <module>@jvm/demo-jstackAnalyse</module>
+        <module>@jvm/demo-jvm</module>
+
+        <module>@data/demo-collection_map</module>
+        <module>@data/demo-consistentHash</module>
+        <module>@data/demo-dataStructure</module>
+
+        <module>@app/demo-spider</module>
+
+        <module>@nosql/demo-nosql</module>
+
         <module>demo-designPatterns</module>
-        <module>demo-websockets</module>
-        <module>demo-nosql</module>
-        <module>demo-jstackAnalyse</module>
-        <module>demo-io_nio_socket</module>
-        <module>demo-bit</module>
-        <module>demo-@interface</module>
-        <module>demo-consistentHash</module>
-        <module>demo-dataStructure</module>
-        <module>demo-collection_map</module>
-        <module>demo-enum</module>
-        <module>demo-jvm</module>
-        <module>demo-webService</module>
-        <module>demo-rmi</module>
-        <module>demo-kafka</module>
+
         <!--<module>demo-spring-boot</module>-->
     </modules>
 

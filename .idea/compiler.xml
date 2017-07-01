@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-@interface" />
+        <module name="demo-at_interface" />
         <module name="demo-bit" />
         <module name="demo-collection_map" />
         <module name="demo-consistentHash" />
@@ -37,6 +38,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-@interface" target="1.8" />
+      <module name="demo-at_interface" target="1.8" />
       <module name="demo-bit" target="1.8" />
       <module name="demo-collection_map" target="1.8" />
       <module name="demo-consistentHash" target="1.8" />
