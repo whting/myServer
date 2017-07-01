@@ -2,323 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c009b985-cc85-4f82-834f-5a6736bf839c" name="Default" comment="分类型">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-bit/demo-bit.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/demo-designPatterns.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/process/crud0906/单例模式、双检测锁定DCL、volatile（转） - 一个普通的程序员 - ITeye技术网站.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/process/yiminghe/Java 单例模式探讨 - { focus   web } - ITeye技术网站.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Context.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Expression.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Minus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/material/Plus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Interpreter/解释器模式（Interpreter）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/material/AbstractHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/material/Handler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/material/MyHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/chainOfResponsibility/责任链模式（Chain of Responsibility）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/strategy/material/ICalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/strategy/策略模式（strategy）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/material/Plus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/process/AbstractCalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/templateMethod/模板方法模式（Template Method）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material/Source.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material/Targetable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material2/SourceSub1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material2/SourceSub2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/material2/Sourceable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/process/Adapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/process/Wrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/process/Wrapper2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/adapter/适配器模式(Adapter).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/material/SourceSub1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/material/SourceSub2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/material/Sourceable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/process/Bridge.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/process/MyBridge.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/bridge/桥接模式（Bridge）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/composite/client/Tree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/composite/material/TreeNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/composite/组合模式（Composite）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/material/Source.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/material/Sourceable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/process/Decorator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/decorator/装饰模式（Decorator）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/material/CPU.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/material/Disk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/material/Memory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/process/Computer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/facade/外观模式（Facade）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/flyweight/process/ConnectionPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/flyweight/享元模式（Flyweight）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/material/Source.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/material/Sourceable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/process/Proxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/structure/proxy/代理模式（Proxy）.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-designPatterns/开发中的23种设计模式详解 - ITeye技术网站.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/demo-io_nio_socket.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-java8/demo-java8.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/demo-jstackAnalyse.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-nosql/demo-nosql.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-proxy/demo-proxy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/java动态代理（JDK和cglib） - C'est la vie - 博客园.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/Java 下高效的反射工具包 ReflectASM 使用例解   隔叶黄莺 Unmi Blog - 软件编程实践.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-spider/demo-spider.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-thread/demo-thread.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/demo-websockets.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/ReadMe.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageInbound.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageInboundPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/WebSocketMessageServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocketByTomcat7/websocket.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt" afterPath="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/READEME.md" afterPath="$PROJECT_DIR$/@java/demo-at_interface/READEME.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-at_interface/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/Main.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/MyDescription.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescription.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/MyDescriptionHandle.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescriptionHandle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-@interface/src/main/java/MyDescriptionHandleCglib.java" afterPath="$PROJECT_DIR$/@java/demo-at_interface/src/main/java/MyDescriptionHandleCglib.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-bit/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BinaryHandle.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BinaryHandle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitBase.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitCompute.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitCompute.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitStatus.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitStatus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-bit/src/main/java/BitTest.java" afterPath="$PROJECT_DIR$/@java/demo-bit/src/main/java/BitTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/READEME.md" afterPath="$PROJECT_DIR$/@data/demo-collection_map/READEME.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/pom.xml" afterPath="$PROJECT_DIR$/@data/demo-collection_map/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/Fail_fastOrFail_safe.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/Fail_fastOrFail_safe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/collection/Colletion_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/collection/Colletion_demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/comparator/comparator_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/comparator/comparator_demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/concurrent/Concurrent_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/concurrent/Concurrent_demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-collection_map/src/main/java/map/HashMap_demo.java" afterPath="$PROJECT_DIR$/@data/demo-collection_map/src/main/java/map/HashMap_demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/README.md" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/pom.xml" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/src/main/java/ConsistentHashingWithoutVirtualNode.java" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/src/main/java/ConsistentHashingWithoutVirtualNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-consistentHash/src/main/java/Shared.java" afterPath="$PROJECT_DIR$/@data/demo-consistentHash/src/main/java/Shared.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/README.md" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/pom.xml" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarySearchTree/BinarySearchTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarySearchTree/BinarySearchTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarySearchTree/BinarySortTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarySearchTree/BinarySortTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binaryTree/v1/BinaryTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binaryTree/v1/BinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binaryTree/v2/BTNode.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binaryTree/v2/BTNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binaryTree/v2/BinTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binaryTree/v2/BinTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarysearch/BinarySearchTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarysearch/BinarySearchTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/binarysearch/Node.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/binarysearch/Node.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/redblack/RBTree.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/redblack/RBTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/redblack/RBTreeTest.java" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/redblack/RBTreeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dataStructure/src/main/java/redblack/红黑树.md" afterPath="$PROJECT_DIR$/@data/demo-dataStructure/src/main/java/redblack/红黑树.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/java/com/fengjx/dubbo/service/HelloServiceConsumer.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/java/com/fengjx/dubbo/service/HelloServiceConsumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/spring-beans.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring-consumer.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/spring-consumer.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/spring.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/test/java/com/fengjx/dubbo/service/HelloServiceConsumerTest.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/test/java/com/fengjx/dubbo/service/HelloServiceConsumerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-client/src/test/java/com/fengjx/main/Consumer.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/test/java/com/fengjx/main/Consumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/README.md" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/HelloService.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/HelloService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/impl/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/java/com/fengjx/dubbo/service/impl/HelloServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/spring-beans.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/spring-dubbo-provider.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/resources/spring.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo-server/src/test/java/com/fengjx/main/Provider.java" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-server/src/test/java/com/fengjx/main/Provider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-enum/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-enum/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-enum/src/main/java/Enum_demo.java" afterPath="$PROJECT_DIR$/@java/demo-enum/src/main/java/Enum_demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/READEME.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/READEME.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/FileOperate.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/io_nio/FileOperate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/FileOperate_nio.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/io_nio/FileOperate_nio.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/io_nio/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/io_nio/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ChatServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/ChatServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ChatServerInitializer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/ChatServerInitializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/HttpRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/HttpRequestHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ReadMe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/TextWebSocketFrameHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/TextWebSocketFrameHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/WebSocketRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/WebSocketRequestHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/netty4/index.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket/TalkClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket/TalkClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket/TalkServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket/TalkServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/NioTcpClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_nio/NioTcpClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/NioTcpServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_nio/NioTcpServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_nio/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_nio/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/FilmClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/FilmServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/FilmServerNewThread.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/FilmServerNewThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/socket_thread/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/socket_thread/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/MyWebSocket.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/websocket_tomcat/MyWebSocket.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/websocket_tomcat/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-io_nio_socket/src/main/java/websocket_tomcat/index_websocketClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/websocket_tomcat/index_websocketClient.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/ReadMe.md" afterPath="$PROJECT_DIR$/@java/demo-java8/ReadMe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-java8/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/builtInFunction/BuiltInFunction.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/builtInFunction/BuiltInFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/functionalInterface/Func.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/functionalInterface/Func.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/interfaceDefault/Formula.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/interfaceDefault/Formula.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaForEach.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaForEach.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaSort.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaStream.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaStream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/LambdaThread.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/LambdaThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/Readme.md" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/Readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/lambda/Test.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/lambda/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/optional/MyOptional.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/optional/MyOptional.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/optional/MyOptionalExample.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/optional/MyOptionalExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/optional/User.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/optional/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/twoColons/TwoColonsNew.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/twoColons/TwoColonsNew.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-java8/src/main/java/java8/twoColons/TwoColonsUtil.java" afterPath="$PROJECT_DIR$/@java/demo-java8/src/main/java/java8/twoColons/TwoColonsUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/pom.xml" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/src/main/java/jstackAnalyse_asia.java" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/src/main/java/jstackAnalyse_asia.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/src/main/java/jstackAnalyse_huawei.java" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/src/main/java/jstackAnalyse_huawei.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jstackAnalyse/src/main/java/jstackAnalyse_wosai.java" afterPath="$PROJECT_DIR$/@jvm/demo-jstackAnalyse/src/main/java/jstackAnalyse_wosai.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jvm/pom.xml" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-jvm/src/main/java/Finalize.java" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/Finalize.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ConsumerDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/ConsumerMsgTask.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ConsumerMsgTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/PartitionerDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/PartitionerDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example/ProducerDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example/ProducerDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example2/KafkaConsumer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example2/KafkaConsumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/example2/KafkaProducer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example2/KafkaProducer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/ConfigureAPI.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/ConfigureAPI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JConsumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/JProducer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/JProducer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/kafka_hadoop/KafkaClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-kotlin/src/hello.kt" afterPath="$PROJECT_DIR$/@kotlin/demo-kotlin/src/hello.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-nosql/pom.xml" afterPath="$PROJECT_DIR$/@nosql/demo-nosql/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-nosql/src/main/java/java/liux/nosql/redis/App.java" afterPath="$PROJECT_DIR$/@nosql/demo-nosql/src/main/java/java/liux/nosql/redis/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-nosql/src/main/java/java/liux/nosql/redis/RedisClient.java" afterPath="$PROJECT_DIR$/@nosql/demo-nosql/src/main/java/java/liux/nosql/redis/RedisClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/pom.xml" afterPath="$PROJECT_DIR$/@java/demo-proxy/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/client/Client.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/client/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/material/Count.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/material/Count.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/material/CountImpl.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/material/CountImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/process/CountProxy.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/process/CountProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/process/CountProxy2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/process/CountProxy2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/Simple/process/MyInvocationHandler.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/process/MyInvocationHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/client/Client.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/client/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/material/BookFacade.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/material/BookFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/material/BookFacadeImpl.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/material/BookFacadeImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/cglib/process/BookFacadeCglib.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/cglib/process/BookFacadeCglib.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/hessian/Hessian 远程代理.txt" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/hessian/Hessian 远程代理.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/client/Client.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/client/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/material/BookFacade.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/material/BookFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/material/BookFacadeImpl.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/material/BookFacadeImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk/process/BookFacadeProxy.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk/process/BookFacadeProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/README.md" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material/SomeClass.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material/SomeClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material2/InvokeTester.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material2/InvokeTester.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/Private.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/Private.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/Private2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/Private2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/TestPrivate.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/TestPrivate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/TestPrivate2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/TestPrivate2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/material3/java反射机制学习 - super-d2 - 博客园.txt" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/material3/java反射机制学习 - super-d2 - 博客园.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/process/ReflectasmClient.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/process/ReflectasmClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/reflect/process/ReflectasmClient2.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/process/ReflectasmClient2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/serializable/MyTest.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/serializable/MyTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-proxy/src/main/java/serializable/MyTest_static.java" afterPath="$PROJECT_DIR$/@java/demo-proxy/src/main/java/serializable/MyTest_static.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/HelloImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/HelloImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/HelloServer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/HelloServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/Hello_RMI_Client.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/Hello_RMI_Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-rmi/src/main/java/IHello.java" afterPath="$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/IHello.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/README.md" afterPath="$PROJECT_DIR$/@app/demo-spider/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/pom.xml" afterPath="$PROJECT_DIR$/@app/demo-spider/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/Home.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/Home.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/crawler/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/crawler/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/crawler/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/crawler/MyCrawler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/czwlzx_com.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/czwlzx_com.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo/MyCrawler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo_third/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo_third/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo_third/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo_third/MyCrawler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/demo_third/README.md" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/demo_third/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/question/Controller.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/question/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/question/MyCrawler.java" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/question/MyCrawler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-spider/src/main/java/question/README.md" afterPath="$PROJECT_DIR$/@app/demo-spider/src/main/java/question/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/MyThread.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/MyThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/MyThreadPool_Executors.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/MyThreadPool_Executors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/Test_ThreadPool.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/Test_ThreadPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/ThreadPool.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/ThreadPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/ThreadPoolDiagnose.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/ThreadPoolDiagnose.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/pool/priority/MyPriorityThreadPool.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/pool/priority/MyPriorityThreadPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/queue/MyPriorityQueue.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/queue/MyPriorityQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-thread/src/main/java/queue/PriorityBlockingQueueDemo.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-thread/src/main/java/queue/PriorityBlockingQueueDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-webService/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/HelloWorld.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/HelloWorld.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/HelloWorld.wsdl" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorld.wsdl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/ClientAxis.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/ClientAxis.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorld.wsdl" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorld.wsdl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorldService.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorldServiceLocator.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldServiceLocator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorldSoapBindingStub.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldSoapBindingStub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/java/client/HelloWorld_PortType.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorld_PortType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-dubbo-client/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService/src/test/java/WebServiceTest.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/test/java/WebServiceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorld.wsdl" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/HelloWorld.wsdl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldService.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldServiceLocator.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldServiceLocator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorldSoapBindingStub.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/client/HelloWorldSoapBindingStub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/client/HelloWorld_PortType.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorld_PortType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_client/src/example/HelloWorldClient.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_client/src/example/HelloWorldClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/src/example/HelloWorld.java" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/src/example/HelloWorld.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/web/WEB-INF/server-config.wsdd" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/web/WEB-INF/server-config.wsdd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/web/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-webService_web_server/web/index.jsp" afterPath="$PROJECT_DIR$/@rpc/demo-webService_web_server/web/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/pom.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/androidSocket/androidSocketServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/androidSocket/androidSocketServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/byteslounge/websockets/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/byteslounge/websockets/ReadMe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/byteslounge/websockets/WebSocketTest.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/byteslounge/websockets/WebSocketTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/ReadMe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/WebSocketServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/WebSocketServerHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServerHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/WebSocketServerPipelineFactory.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/WebSocketServerPipelineFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty3/client.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty3/client.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/ChatServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ChatServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/ChatServerInitializer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/ChatServerInitializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/HttpRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/HttpRequestHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/ReadMe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/TextWebSocketFrameHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/TextWebSocketFrameHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/WebSocketRequestHandler.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/netty4/WebSocketRequestHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/netty4/index.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket/src/main/java/netty4/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socket/TalkClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socket/TalkClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socket/TalkServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socket/TalkServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socketOfwebSocket/EchoServer.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socketOfwebSocket/EchoServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/socketOfwebSocket/echoClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/echoClient.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/MyClient.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/MyClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/MyClientApp.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/MyClientApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/ReadMe.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/ReadMe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/SessionUtils.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/SessionUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/com/websocket/WebsocketEndPoint.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/websocket/WebsocketEndPoint.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/websocket_tomcat/MyWebSocket.java" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/websocket_tomcat/MyWebSocket.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/websocket_tomcat/README.md" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/websocket_tomcat/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/java/websocket_tomcat/index_websocketClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/websocket_tomcat/index_websocketClient.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/echoClient.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/java/com/socketOfwebSocket/echoClient.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/page.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/page.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-websockets/src/main/webapp/websocket.html" afterPath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/src/main/webapp/websocket.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -385,54 +69,7 @@
     <SUITE FILE_PATH="coverage/myServer$HelloKt.coverage" NAME="HelloKt Coverage Results" MODIFIED="1496827825319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/reflect/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdk反射与cglib反射的区别.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-designPatterns/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="单例模式（Singleton）.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -583,7 +220,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -613,11 +250,6 @@
             <path>
               <item name="myServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="myServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myServer" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-designPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1119,7 +751,7 @@
       <workItem from="1498740564240" duration="27000" />
       <workItem from="1498799595248" duration="4950000" />
       <workItem from="1498807185086" duration="6987000" />
-      <workItem from="1498874495585" duration="7529000" />
+      <workItem from="1498874495585" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1494657449760</created>
@@ -1192,7 +824,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209311000" />
+    <option name="totallyTimeSpent" value="209400000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1204,7 +836,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
