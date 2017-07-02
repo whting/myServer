@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c009b985-cc85-4f82-834f-5a6736bf839c" name="Default" comment="kafka rename">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="c009b985-cc85-4f82-834f-5a6736bf839c" name="Default" comment="@jvm update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Integer.,d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject-javap.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/SimpleClass-javap.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/SimpleClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/README.md" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/pom.xml" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app1_rmi/JmiDemoClent.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app1_rmi/JmiDemoClent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app1_rmi/JmiDemoSer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app1_rmi/JmiDemoSer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app1_rmi/process/JmiDemoBean.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app1_rmi/process/JmiDemoBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app1_rmi/process/JmiDemoBeanImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app1_rmi/process/JmiDemoBeanImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app2_socket_implObj/EjbBean.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app2_socket_implObj/EjbBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app2_socket_implObj/EjbSockClent.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app2_socket_implObj/EjbSockClent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app2_socket_implObj/EjbSockSer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app2_socket_implObj/EjbSockSer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str/EjbSenssicClent.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str/EjbSenssicClent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str/EjbSenssicSer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str/EjbSenssicSer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str/material/EjbSenssicBean.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str/material/EjbSenssicBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str/material/EjbSenssicBeanImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str/material/EjbSenssicBeanImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str2/Person.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str2/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str2/PersonClient.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str2/PersonClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str2/PersonServer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str2/PersonServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str2/Person_Skeleton.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str2/Person_Skeleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app3_socket_method_str2/Person_Stub.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str2/Person_Stub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app4_socket_method_obj/SocketMethod2ObjClent.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app4_socket_method_obj/SocketMethod2ObjClent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app4_socket_method_obj/SocketMethod2ObjSer.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app4_socket_method_obj/SocketMethod2ObjSer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app4_socket_method_obj/material/SocketMethod2ObjBean.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app4_socket_method_obj/material/SocketMethod2ObjBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app4_socket_method_obj/material/SocketMethod2ObjService.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app4_socket_method_obj/material/SocketMethod2ObjService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app4_socket_method_obj/material/SocketMethod2ObjServiceImpl.java" afterPath="$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app4_socket_method_obj/material/SocketMethod2ObjServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,48 +77,7 @@
     <SUITE FILE_PATH="coverage/myServer$HelloKt.coverage" NAME="HelloKt Coverage Results" MODIFIED="1496827825319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="JConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example3/JConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigureAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example3/ConfigureAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JProducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example3/JProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,17 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Export</find>
-      <find>The service ready on spring started</find>
-      <find>nulllocalhost:8989</find>
-      <find>null</find>
-      <find>HelloWorldServiceLocator</find>
-      <find>HelloWorldSoapBindingStub</find>
-      <find>org.apache.commons.logging.LogFactory</find>
-      <find>webService_web_client</find>
-      <find>demo-webService_web_client</find>
-      <find>demo-webService_web_server</find>
-      <find>thread</find>
       <find>VerifiableProperties</find>
       <find>com.catt.kafka.demo.PartitionerDemo</find>
       <find>PartitionerDemo</find>
@@ -178,6 +108,17 @@
       <find>ObjectInputStream</find>
       <find>at</find>
       <find>at_</find>
+      <find>sayHello</find>
+      <find>Hello</find>
+      <find>classFile</find>
+      <find>()V</find>
+      <find>In</find>
+      <find>998</find>
+      <find>int</find>
+      <find>static</find>
+      <find>12</find>
+      <find>#12</find>
+      <find>LineNumberTable</find>
     </findStrings>
     <dirStrings>
       <dir>G:\liuxiang_code_git\myServer\demo-dubbo-server</dir>
@@ -201,23 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/@java/demo-proxy/src/main/java/jdk反射与cglib反射的区别.txt" />
-        <option value="$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/pom.xml" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/Person.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/PersonServer.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/README.md" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/PersonClient.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/Person_Stub.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/Person_Skeleton.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/objectStream/Person_Skeleton.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/objectStream/Person_Stub.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/socket/Person_Skeleton.java" />
-        <option value="$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/client/Client.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/JmiDemoBean.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/JmiDemoBeanImpl.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/JmiDemoSer.java" />
-        <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/JmiDemoClent.java" />
         <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/EjbBean.java" />
         <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/EjbSenssicBean.java" />
         <option value="$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/EjbSenssicBeanImpl.java" />
@@ -252,6 +176,23 @@
         <option value="$PROJECT_DIR$/@rpc/demo-socket/src/main/java/app1_rmi/JmiDemoSer.java" />
         <option value="$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example3/JProducer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/newObject.java" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/SimpleClass-constants.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/newObject-constants.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject2.java" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject.java" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/SimpleClass.java" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject-constants.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-String.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Integer.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-int.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-StaticStr.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-StaticFun.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-New.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Str.md" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm.java" />
+        <option value="$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Str-Static.md" />
       </list>
     </option>
   </component>
@@ -825,7 +766,8 @@
       <workItem from="1498740564240" duration="27000" />
       <workItem from="1498799595248" duration="4950000" />
       <workItem from="1498807185086" duration="6987000" />
-      <workItem from="1498874495585" duration="17362000" />
+      <workItem from="1498874495585" duration="18145000" />
+      <workItem from="1498959077830" duration="18047000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1494657449760</created>
@@ -876,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498895051554</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rpc_socket rename">
+      <created>1498895179526</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498895179526</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -912,7 +861,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219144000" />
+    <option name="totallyTimeSpent" value="237974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,7 +874,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -938,16 +886,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3881579" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19078948" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3338816" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38880485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="535" y="60" width="296" height="608" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28782895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="535" y="60" width="296" height="608" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37335527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -977,7 +925,9 @@
     <MESSAGE value="分类型" />
     <MESSAGE value="@rpc" />
     <MESSAGE value="kafka rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka rename" />
+    <MESSAGE value="rpc_socket rename" />
+    <MESSAGE value="@jvm update" />
+    <option name="LAST_COMMIT_MESSAGE" value="@jvm update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,123 +947,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/create/singleton/单例模式（Singleton）.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-designPatterns/src/main/java/doings/Command/命令模式（Command）.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-rpc_socket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/IHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/ObjectInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="362" column="24" lean-forward="false" selection-start-line="362" selection-start-column="24" selection-end-line="362" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app3_socket_method_str2/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-webService/src/main/java/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorldServiceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/HelloWorld_PortType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-webService/src/main/java/client/ClientAxis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@java/demo-proxy/src/main/java/Simple/material/CountImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/HelloServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-rmi/src/main/java/Hello_RMI_Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/app_1/process/JmiDemoSer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/@rpc/demo-EJB/src/main/java/ejb/app_1/process/JmiDemoSer.java" />
     <entry file="file://$PROJECT_DIR$/@rpc/demo-rpc_socket/src/main/java/app1_rmi/JmiDemoClent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,9 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
           <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,9 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="483" column="18" lean-forward="false" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,10 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="3140" column="32" lean-forward="false" selection-start-line="3140" selection-start-column="32" selection-end-line="3140" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="61" column="68" lean-forward="false" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,7 +1171,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1379,13 +1180,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example3/JConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="0">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
@@ -1401,7 +1201,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/src/main/java/example3/JProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
+        <state relative-caret-position="0">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
@@ -1410,8 +1210,147 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/target/classes/SimpleClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject-javap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-629">
+            <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/NewObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/SimpleClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#57#58#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-StaticFun.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-int.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="191">
+            <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="52" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-New.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/SimpleClass-javap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="245">
+            <caret line="86" column="146" lean-forward="false" selection-start-line="86" selection-start-column="89" selection-end-line="86" selection-end-column="146" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Str-Static.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Str.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-Integer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="277">
+            <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@jvm/demo-jvm/src/main/java/TestJvm-javap-String.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="98">
+            <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
