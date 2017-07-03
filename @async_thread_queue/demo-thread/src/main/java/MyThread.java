@@ -61,8 +61,8 @@ public class MyThread {
 //                new M_lock().get_ReadWriteLock(rwlock);// 可同时进行读操作
 
                 /* 四.公平锁 synchronized和Lock都是非公平锁,但Lock可以设置为公平锁 */
-//                new M_lock().get_lock_fair(lock_Fair);
-//                new M_lock().get_lock_fair(lock_NonFair);// 非公平锁,没能感觉出来？
+                new M_lock().get_lock_fair(lock_Fair);
+                new M_lock().get_lock_fair(lock_NonFair);// 非公平锁,没能感觉出来？
 //                new M_lock().get_lock_fair(lock);// 非公平锁(默认),没能感觉出来？
 //                new M_syncBlock().get_NonFair(sycnBlock_obj);// 非公平锁,感觉明显
 

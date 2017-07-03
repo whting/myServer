@@ -75,6 +75,11 @@ class MyRunnableComp implements Runnable, Comparable<MyRunnableComp> {
         }
     }
 
+    /**
+     * 顺序控制
+     * @param o
+     * @return
+     */
     @Override
     public int compareTo(MyRunnableComp o) {
         if (o.getPriority() == this.priority) {

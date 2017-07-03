@@ -41,7 +41,7 @@ class PrioritizedTask implements Runnable, Comparable<PrioritizedTask> {
 
     @Override
     public void run() {
-        //执行任务代码..  
+        // 执行任务代码..
         try {
             TimeUnit.MILLISECONDS.sleep(rand.nextInt(250));
         } catch (InterruptedException e) {
