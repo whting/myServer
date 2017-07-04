@@ -6,22 +6,27 @@ import structure.bridge.material.Sourceable;
 import structure.bridge.process.Bridge;
 import structure.bridge.process.MyBridge;
 
-public class Client
-{
+public class Client {
 
-	public static void main(String[] args)
-	{
+    public static void main(String[] args) {
 
-		Bridge bridge = new MyBridge();
+        Bridge bridge = new MyBridge();
 
-		/* ���õ�һ������ */
-		Sourceable source1 = new SourceSub1();
-		bridge.setSource(source1);
-		bridge.method();
+		/* 调用第一个对象 */
+        Sourceable source1 = new SourceSub1();
+        source1.method();// 直接调用(业务的控制要化实例前)
 
-		/* ���õڶ������� */
-		Sourceable source2 = new SourceSub2();
-		bridge.setSource(source2);
-		bridge.method();
-	}
+		/* 调用第二个对象 */
+        Sourceable source2 = new SourceSub2();
+        source2.method();// 直接调用(业务的控制要化实例前)
+
+		/* 桥接调用:面向bridge的方式,由业务决定使用哪方来处理具体的业务(例如:jdbc)
+		 * 可对已经实例化的对象进行动态桥接 **/
+        if (true) {
+            bridge.setSource(source1);// 例:mysql
+        } else {
+            bridge.setSource(source2);// 例:oracle
+        }
+        bridge.method();
+    }
 }
