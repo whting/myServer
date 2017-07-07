@@ -11,11 +11,11 @@ public class Client
 		State state = new State();
 		Context context = new Context(state);
 
-		// ���õ�һ��״̬
+		// 设置第一种状态
 		state.setValue("state1");
 		context.method();
 
-		// ���õڶ���״̬
+		// 设置第二种状态
 		state.setValue("state2");
 		context.method();
 	}

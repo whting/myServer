@@ -5,31 +5,29 @@ import Simple.material.CountImpl;
 
 public class CountProxy implements Count
 {
-	private CountImpl countImpl;
+	private Count count;
 
 	/** 覆盖默认构造器
 	 * 
-	 * @param countImpl */
-	public CountProxy(CountImpl countImpl)
+	 * @param count */
+	public CountProxy(CountImpl count)
 	{
-		this.countImpl = countImpl;
+		this.count = count;
 	}
 
 	@Override
-	public void queryCount()
-	{
+	public void queryCount() throws Throwable {
 		System.out.println("事务处理之前");
 		// 调用委托类的方法;
-		countImpl.queryCount();
+		count.queryCount();
 		System.out.println("事务处理之后");
 	}
 
 	@Override
-	public void updateCount()
-	{
+	public void updateCount() throws Throwable {
 		System.out.println("事务处理之前");
 		// 调用委托类的方法;
-		countImpl.updateCount();
+		count.updateCount();
 		System.out.println("事务处理之后");
 	}
 

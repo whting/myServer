@@ -1,7 +1,7 @@
 package behavior.state.material;
 
-/** ״̬ģʽ���л��� 2012-12-1
- * 
+/**
+ *
  * @author erqing */
 public class Context
 {

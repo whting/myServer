@@ -1,7 +1,8 @@
 package behavior.state.material;
 
-/** ״̬��ĺ����� 2012-12-1
- * 
+/**
+ * 状态类的核心类 2012-12-1
+ *
  * @author erqing */
 public class State
 {

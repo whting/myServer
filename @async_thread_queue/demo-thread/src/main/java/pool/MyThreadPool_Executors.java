@@ -14,10 +14,11 @@ public class MyThreadPool_Executors {
     public static void newCachedThreadPool() {
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
         for (int i = 0; i < 10; i++) {
+            System.out.print(i+":");
             final int index = i;
             try {
-                Thread.sleep(1);
-//                Thread.sleep(1000);
+//                Thread.sleep(1);
+                Thread.sleep(1000);
 //                Thread.sleep(index * 1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -40,6 +41,7 @@ public class MyThreadPool_Executors {
     public static void newFixedThreadPool() {
         ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);
         for (int i = 0; i < 10; i++) {
+            System.out.print(i+":");
             final int index = i;
 
             fixedThreadPool.execute(new Runnable() {
@@ -88,6 +90,7 @@ public class MyThreadPool_Executors {
     public static void newSingleThreadExcecutor() {
         ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
         for (int i = 0; i < 10; i++) {
+            System.out.print(i+":");
             final int index = i;
             singleThreadExecutor.execute(new Runnable() {
 
@@ -106,9 +109,9 @@ public class MyThreadPool_Executors {
 
     public static void main(String[] args) {
         MyThreadPool_Executors.newCachedThreadPool();// 可缓存的线程池
-//        pool.MyThreadPool_Executors.newFixedThreadPool();// 定长的线程池
-//        pool.MyThreadPool_Executors.newScheduledThreadPool();// 任务线程池
-//        MyThreadPool_Executors.newSingleThreadExcecutor();// 单线程化的线程池
+        pool.MyThreadPool_Executors.newFixedThreadPool();// 定长的线程池
+//        pool.MyThreadPool_Executors.newScheduledThreadPool();// 任务(延迟+周期)线程池
+        MyThreadPool_Executors.newSingleThreadExcecutor();// 单线程化的线程池
     }
 }
 

@@ -1,4 +1,4 @@
-package create.singleton.process;
+package create.singleton.process.demo;
 
 public class SingletonSyn
 {

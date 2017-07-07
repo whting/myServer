@@ -231,7 +231,7 @@ class M_Volatile {
     public MyThread get_doubleCheck(Object sycnBlock_obj) {
         if (myThread == null) { // 校验:已知实例化情况,减少`synchronized`同步消耗
             synchronized (sycnBlock_obj) {
-                if (myThread == null) {// 同步校验,为实例化再实例化
+                if (myThread == null) {// 同步校验,未实例化再实例化
                     long start = System.currentTimeMillis();
                     while (System.currentTimeMillis() - start <= 1) {
                     }

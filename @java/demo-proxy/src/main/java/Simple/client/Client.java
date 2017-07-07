@@ -2,7 +2,6 @@ package Simple.client;
 
 import Simple.material.Count;
 import Simple.material.CountImpl;
-import Simple.process.CountProxy;
 import Simple.process.MyInvocationHandler;
 
 /** 测试Count类
@@ -14,9 +13,9 @@ public class Client
 		CountImpl countImpl = new CountImpl();
 
 		// 方法覆盖代理
-		Count countProxy = new CountProxy(countImpl);
-		countProxy.updateCount();
-		countProxy.queryCount();
+//		Count countProxy = new CountProxy(countImpl);
+//		countProxy.updateCount();
+//		countProxy.queryCount();
 
 		// 通用方法代理
 		MyInvocationHandler myInvocationHandler = new MyInvocationHandler();

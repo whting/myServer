@@ -3,14 +3,14 @@ package behavior.templateMethod.process;
 public abstract class AbstractCalculator
 {
 
-	/* ��������ʵ�ֶԱ������������ĵ��� */
+	/* 主方法，实现对本类其它方法的调用 */
 	public final int calculate(String exp, String opt)
 	{
 		int array[] = split(exp, opt);
 		return calculate(array[0], array[1]);
 	}
 
-	/* ��������д�ķ��� */
+	/* 被子类重写的方法 */
 	abstract public int calculate(int num1, int num2);
 
 	public int[] split(String exp, String opt)
@@ -21,4 +21,5 @@ public abstract class AbstractCalculator
 		arrayInt[1] = Integer.parseInt(array[1]);
 		return arrayInt;
 	}
+
 }
