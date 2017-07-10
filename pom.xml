@@ -45,6 +45,9 @@
 
         <module>demo-designPatterns</module>
         <module>@rpc/demo-rpc_socket</module>
+        <module>@jvm/demo-classLoader</module>
+        <module>@bigData/demo-hadoop_learn</module>
+        <module>@java/demo-java_common</module>
 
         <!--<module>demo-spring-boot</module>-->
     </modules>

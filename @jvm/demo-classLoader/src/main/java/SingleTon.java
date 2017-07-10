@@ -1,5 +1,6 @@
 public class SingleTon {
 
+
     public static int count1 = 170;// 在第5行(即类初始化)前,将数值加入`方法区-运行时常量池`
 
     private static SingleTon singleTon = new SingleTon();
@@ -24,9 +25,11 @@ public class SingleTon {
 class SingleTon_Test {
 
     public static void main(String[] args) {
+//        SingleTon singleTon=new SingleTon();// 1,171,189 说明:在new Object的构造方法执行前,会先执行`static属性组成的static{}方法`
+
         System.out.println("count =" + SingleTon.count);// 1 因无赋值操作,所以保持了`方法区-运行时常量池`中的数值
         System.out.println("count1=" + SingleTon.count1);// 171 count1已经在类初始化前将数值放入了`方法区-运行时常量池`,所以感觉无恙
-        System.out.println("count2=" + SingleTon.count2);// 188 在已经完成了类初始化后,再将188赋值`方法区-运行时常量池`,将会覆盖原值
+        System.out.println("count2=" + SingleTon.count2);// 188
     }
 }
 
