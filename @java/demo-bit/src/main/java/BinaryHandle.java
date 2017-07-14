@@ -26,6 +26,8 @@ public class BinaryHandle {
 
         // 注意: 1byte=8-bit.显示32位的原因是此函数将byte当作int处理，1int=32-bit
 
+        System.out.println(Integer.toBinaryString(0xff));// 二进制位11111111 作用：[& 0xff]位与运算,用于高位补0
+
         String s = "慕课ABC";
         byte[] utf8 = s.getBytes("utf-8");
         for (byte b : utf8) {
@@ -41,7 +43,7 @@ public class BinaryHandle {
         }
 
         System.out.println();
-        System.out.println(Integer.toBinaryString(0xff));// 二进制位11111111
+
     }
 
     public static byte[] int2Bytes(int value, int len) {

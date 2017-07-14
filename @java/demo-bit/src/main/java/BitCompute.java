@@ -94,16 +94,23 @@ public class BitCompute extends BitBase {
 
 		String s = "慕课ABC";
 
+		System.out.println();
+		System.out.println(to32(0xff));// 1byte=8位,多余的前缀都是无效的. 通过[& 0xff]剔除干扰
+
+
 		byte[] utf8 = s.getBytes("utf-8");
 		for (byte b : utf8) {
 			// UTF-8 编码中中文占用3个字节
 			System.out.print(Integer.toBinaryString(b & 0xff) + " ");
 		}
-		
-		
+
 		System.out.println();
-		System.out.println(to32(0xff));// 1byte=8位,多余的前缀都是无效的. 通过[& 0xff]剔除干扰
-		
+		for (byte b : utf8) {
+			// GBK 编码中中文占用2个字节
+			System.out.print(Integer.toHexString(b & 0xff) + " ");// 16进制显示
+		}
+
+		System.out.println();
 		byte[] gbk = s.getBytes("gbk");
 		for (byte b : gbk) {
 			System.out.print(Integer.toBinaryString(b & 0xff) + " ");
@@ -150,3 +157,8 @@ public class BitCompute extends BitBase {
 	}
 
 }
+
+/**
+ * `文件的编码-慕课网`
+ * http://www.imooc.com/video/1832
+ */

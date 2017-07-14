@@ -1,12 +1,10 @@
 package map;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class HashMap_demo {
-    public static void main(String[] args) {
+
+    public static void structure(){
         Map<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
         for (int i = 1; i < 11; i++) {
             hashMap.put(i, i);
@@ -26,6 +24,32 @@ public class HashMap_demo {
             treeMap.put(i, i);
         }
         System.out.println(treeMap.size());
+    }
+
+    public static void sort(){
+        int[] ints= {1,3,2,4,7,9,6,7,8,6,5,4,3,2};
+        TreeSet treeSet = new TreeSet();
+        for (int i=0;i<ints.length;i++){
+            treeSet.add(ints[i]);
+        }
+        System.out.println(treeSet);// 排序
+
+        HashSet hashSet = new HashSet();
+        for (int i=0;i<ints.length;i++){
+            hashSet.add(ints[i]);
+        }
+        System.out.println(hashSet);// 有序？
+
+        LinkedHashSet linkedHashSet = new LinkedHashSet();
+        for (int i=0;i<ints.length;i++){
+            linkedHashSet.add(ints[i]);
+        }
+        System.out.println(linkedHashSet);// 保持顺序
+    }
+
+    public static void main(String[] args) {
+//        structure();
+        sort();
     }
 }
 

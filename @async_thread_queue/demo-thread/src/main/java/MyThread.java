@@ -15,7 +15,7 @@ public class MyThread {
     private static Object sycnBlock_obj = new Object();
 
     /* 三.Lock 同步方法 */
-    private static Lock lock = new ReentrantLock();
+    private static Lock reentrantLock = new ReentrantLock();
     private static ReentrantReadWriteLock rwlock = new ReentrantReadWriteLock();
 
     /* 四.公平锁 */
@@ -31,8 +31,13 @@ public class MyThread {
         threadStart("2");
 
         /* 测试是非公平锁 */
-        for (int i = 2; i < 10; i++) {
-            threadStart(i + "");
+        Thread[] threadArray = new Thread[10];
+        for (int i = 0; i < 10; i++) {
+            threadArray[i] = threadStart(i + "");
+        }
+
+        for (int i = 0; i < 10; i++) {
+            threadArray[i].start();
         }
 
         /* 配合get_tryLock_Interrup */
@@ -54,41 +59,48 @@ public class MyThread {
 
                 /* 三.Lock 同步方法 `Java 并发开发：Lock 框架详解 - 推酷` http://www.tuicool.com/articles/FB7fyiy */
 //                new M_lock().get(new ReentrantLock());// 不能同步:同步索对象不同(局部变量)
-//                new M_lock().get(lock);// 同步:成员变量
-//                new M_lock().get_tryLock(lock);// 检查是否获得锁
-                new M_lock().get_tryLock_time(lock);// 一定时间内检查是否获得锁
-//                new M_lock().get_lockInterrup(lock);// 主动释放索.需要配合 `Thread.sleep(1000);` `thread2.interrupt();`
-//                new M_lock().get_ReadWriteLock(rwlock);// 可同时进行读操作
+                new M_lock().get(reentrantLock);// 可重入锁 同步:成员变量
+//                new M_lock().get_tryLock(reentrantLock);// 检查是否获得锁
+//                new M_lock().get_tryLock_time(reentrantLock);// 一定时间内检查是否获得锁
+//                new M_lock().get_lockInterrup(reentrantLock);// 主动释放索.需要配合 `Thread.sleep(1000);` `thread2.interrupt();`
+
+                /*- 读写锁分离 */
+//                new M_lock().get_ReadWriteLock_read(rwlock);// 可重入锁,可同时进行读操作
+                new M_lock().get_ReadWriteLock_write(rwlock);// 可重入锁, 串行写操作(且停止读锁) http://blog.csdn.net/a352193394/article/details/39405287
 
                 /* 四.公平锁 synchronized和Lock都是非公平锁,但Lock可以设置为公平锁 */
-                new M_lock().get_lock_fair(lock_Fair);
-                new M_lock().get_lock_fair(lock_NonFair);// 非公平锁,没能感觉出来？
-//                new M_lock().get_lock_fair(lock);// 非公平锁(默认),没能感觉出来？
-//                new M_syncBlock().get_NonFair(sycnBlock_obj);// 非公平锁,感觉明显
+//                new M_lock().get_lock_fair(lock_Fair);// 公平锁(先进先出)
+//                new M_lock().get_lock_fair(lock_NonFair);// 非公平锁(有可能后获取到空闲锁的会比队列中的线程先执行)
+//                new M_lock().get_lock_fair(reentrantLock);// 非公平锁(默认)
+//                new M_syncBlock().get_NonFair(sycnBlock_obj);// synchronized 非公平锁
 
                 /* 五.Volatile 理解 */
 //                new M_Volatile().get_NonSycn();// 反例,非同步。结果: 99967/98737 (丢失了33.出错率 3.3/10000 万分之3)
 //                new M_Volatile().get_Sycn(sycnBlock_obj);// 借助`synchronized (sycnBlock_obj)`同步 结果:10*10000=100000
 //                new M_Volatile().get_doubleCheck(sycnBlock_obj);// 实例成功(进入一次)
-                MyThread myThread = new M_Volatile().get_doubleCheck_NonVolatile(sycnBlock_obj);// 实例成功,已经实例 (进入两次-有概率)
+//                MyThread myThread = new M_Volatile().get_doubleCheck_NonVolatile(sycnBlock_obj);// 实例成功,已经实例 (进入两次-有概率)
 //                int count = myThread.count;// 处理器会进行指令重排序优化,有可能已经赋值了地址但未初始化实例。见:http://blog.csdn.net/glory1234work2115/article/details/50814419
             }
         };
-
-        thread.start();
+//        thread.start();
         return thread;
     }
 
     public static void handle() {
-        handle(100);
+        try {
+            handle(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
-    public static void handle(int time) {
+    public static void handle(int time) throws InterruptedException {
         long start = System.currentTimeMillis();
         System.out.println("线程" + Thread.currentThread().getName() + "开始读操作>>>>>>>>>>>>>>>");
         System.out.println("线程" + Thread.currentThread().getName() + "开始进行操作...");
-        while (System.currentTimeMillis() - start <= time) {
-        }
+//        while (System.currentTimeMillis() - start <= time) {
+//        }
+        Thread.sleep(time);
         System.out.println("线程" + Thread.currentThread().getName() + "开始读完毕<<<<<<<<<<<<<<<");
     }
 }
@@ -107,7 +119,7 @@ class M_syncBlock {
     }
 
     public void get_NonFair(Object sycnBlock_obj) {
-        System.out.println("线程" + Thread.currentThread().getName() + "请求锁");
+        System.out.println("线程" + Thread.currentThread().getName() + "请求锁-------------------------" + Thread.currentThread().getName());
         synchronized (sycnBlock_obj) {
             MyThread.handle();// 锁间处理
         }
@@ -178,7 +190,7 @@ class M_lock {
         }
     }
 
-    public void get_ReadWriteLock(ReentrantReadWriteLock rwlock) {
+    public void get_ReadWriteLock_read(ReentrantReadWriteLock rwlock) {
         rwlock.readLock().lock(); // 在外面获取锁
         try {
             MyThread.handle();// 锁间处理
@@ -193,8 +205,17 @@ class M_lock {
          */
     }
 
+    public void get_ReadWriteLock_write(ReentrantReadWriteLock rwlock) {
+        rwlock.writeLock().lock(); // 在外面获取锁
+        try {
+            MyThread.handle();// 锁间处理
+        } finally {
+            rwlock.writeLock().unlock();
+        }
+    }
+
     public void get_lock_fair(Lock lock) {
-        System.out.println("线程" + Thread.currentThread().getName() + "请求锁");
+        System.out.println("线程" + Thread.currentThread().getName() + "请求锁-------------------------" + Thread.currentThread().getName());
         lock.lock();
         try {
             MyThread.handle();// 锁间处理
@@ -265,5 +286,6 @@ class M_Volatile {
 }
 
 /**
- * Java 并发开发：Lock 框架详解 - 推酷 http://www.tuicool.com/articles/FB7fyiy
+ * Java 并发开发：Lock 框架详解 - 推酷
+ * http://www.tuicool.com/articles/FB7fyiy
  */
