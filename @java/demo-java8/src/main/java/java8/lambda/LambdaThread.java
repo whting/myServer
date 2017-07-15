@@ -9,6 +9,13 @@ public class LambdaThread {
 		new hello("B").start();
 
 		// 2.实现Runnable接口
+		new Thread(){
+			@Override
+			public void run() {
+				System.out.println("~");
+			}
+		}.start();
+
 		new Thread(new helloR("线程A")).start();
 		new Thread(new helloR("线程B")).start();
 
