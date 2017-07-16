@@ -37,6 +37,8 @@ public class BitCompute extends BitBase {
 
 	public static void bitCompute() {
 
+		System.out.println(to32(5));// 参考量
+
 		// 1、左移(放大)( << )
 		// 0000 0000 0000 0000 0000 0000 0000 0101 然后左移2位后，低位补0
 		// 0000 0000 0000 0000 0000 0000 0001 0100 换算成10进制为20
@@ -62,7 +64,7 @@ public class BitCompute extends BitBase {
 		System.out.println(to32(Integer.toBinaryString(-5 >>> 3)));// 结果是536870911
 																	// (无符号右移,补0)
 
-		// 4、位与( & )
+		// 4、位与( & )- 作用：高位补零？
 		// 位与：第一个操作数的的第n位于第二个操作数的第n位如果都是1，那么结果的第n为也为1，否则为0
 		System.out.println();
 		System.out.println(to32(5));
@@ -76,7 +78,7 @@ public class BitCompute extends BitBase {
 		System.out.println(to32(3));
 		System.out.println(to32(5 | 3));
 
-		// 6、位异或( ^ )
+		// 6、位异或( ^ ) - 作用：？
 		// 第一个操作数的的第n位于第二个操作数的第n位 相反，那么结果的第n为也为1，否则为0
 		System.out.println();
 		System.out.println(to32(5));
@@ -88,6 +90,17 @@ public class BitCompute extends BitBase {
 		System.out.println();
 		System.out.println(to32(5));
 		System.out.println(to32(~5));
+	}
+
+	public static void bitCompute32(){
+		System.out.println(5>>3);//结果是0
+		System.out.println(-5>>3);//结果是-1
+		System.out.println(-5>>>3);//结果是536870911
+
+		/**
+		 * Java 位运算(移位、位与、或、异或、非） - Ely's Blog - CSDN博客
+		 * http://blog.csdn.net/xiaochunyong/article/details/7748713
+		 */
 	}
 
 	public static void bitCompute_imooc() throws UnsupportedEncodingException {
@@ -150,9 +163,10 @@ public class BitCompute extends BitBase {
 	public static void main(String[] args) throws Exception {
 
 		// bitLength();
-		bitCompute_imooc();
+//		bitCompute_imooc();
 
-		// bitCompute();
+//		 bitCompute();
+		bitCompute32();
 		// binaryCount();
 	}
 

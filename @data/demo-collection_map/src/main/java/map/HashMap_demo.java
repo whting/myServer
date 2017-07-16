@@ -5,9 +5,10 @@ import java.util.*;
 public class HashMap_demo {
 
     public static void structure(){
-        Map<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
         for (int i = 1; i < 11; i++) {
-            hashMap.put(i, i);
+            int value = (int)(Math.random()*100);
+            hashMap.put(value, value);
         }
         System.out.println(hashMap.size());
 
@@ -48,8 +49,8 @@ public class HashMap_demo {
     }
 
     public static void main(String[] args) {
-//        structure();
-        sort();
+        structure();
+//        sort();
     }
 }
 
