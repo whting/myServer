@@ -8,7 +8,7 @@ class MySingleton_Static {
     /* 考虑类加载机制的初始化条件(被new或内部static被访问),所以启动时并不会实例化*/
     private static MySingleton_Static mySingleton = new MySingleton_Static();
 
-    public MySingleton_Static() {
+    private MySingleton_Static() {
         System.out.println("Loader");// 监控实例化时机
     }
 

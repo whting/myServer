@@ -59,10 +59,8 @@ public class BitCompute extends BitBase {
 		System.out.println(to32(Integer.toBinaryString(5 >> 3)));
 
 		System.out.println(to32(Integer.toBinaryString(-5)));
-		System.out.println(to32(Integer.toBinaryString(-5 >> 3)));// 结果是-1
-																	// (正数补0,负数补1)
-		System.out.println(to32(Integer.toBinaryString(-5 >>> 3)));// 结果是536870911
-																	// (无符号右移,补0)
+		System.out.println(to32(Integer.toBinaryString(-5 >> 3)));// 结果是-1 (正数补0,负数补1)
+		System.out.println(to32(Integer.toBinaryString(-5 >>> 3)));// 结果是536870911(无符号右移,补0)
 
 		// 4、位与( & )- 作用：高位补零？
 		// 位与：第一个操作数的的第n位于第二个操作数的第n位如果都是1，那么结果的第n为也为1，否则为0
@@ -163,10 +161,10 @@ public class BitCompute extends BitBase {
 	public static void main(String[] args) throws Exception {
 
 		// bitLength();
-//		bitCompute_imooc();
+		bitCompute_imooc();
 
 //		 bitCompute();
-		bitCompute32();
+//		bitCompute32();
 		// binaryCount();
 	}
 

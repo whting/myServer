@@ -73,9 +73,9 @@ public class Fail_fastOrFail_safe {
 
     public static void main(String[] args) throws InterruptedException {
 
-//        Fail_fastOrFail_safe.hashtable();
-//        Fail_fastOrFail_safe.hashMap();
-        Fail_fastOrFail_safe.concurrentHashMap();
+//        Fail_fastOrFail_safe.hashtable();// 快速失败
+//        Fail_fastOrFail_safe.hashMap();// 快速失败
+        Fail_fastOrFail_safe.concurrentHashMap();// 安全失败
     }
 }
 

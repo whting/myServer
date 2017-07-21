@@ -108,10 +108,10 @@ public class MyThreadPool_Executors {
     }
 
     public static void main(String[] args) {
-        MyThreadPool_Executors.newCachedThreadPool();// 可缓存的线程池
-        pool.MyThreadPool_Executors.newFixedThreadPool();// 定长的线程池
-//        pool.MyThreadPool_Executors.newScheduledThreadPool();// 任务(延迟+周期)线程池
-        MyThreadPool_Executors.newSingleThreadExcecutor();// 单线程化的线程池
+//        MyThreadPool_Executors.newCachedThreadPool();// 可缓存的线程池
+//        pool.MyThreadPool_Executors.newFixedThreadPool();// 定长的线程池
+        pool.MyThreadPool_Executors.newScheduledThreadPool();// 任务(延迟+周期)线程池
+//        MyThreadPool_Executors.newSingleThreadExcecutor();// 单线程化的线程池
     }
 }
 

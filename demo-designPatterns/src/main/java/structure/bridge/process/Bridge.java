@@ -2,7 +2,8 @@ package structure.bridge.process;
 
 import structure.bridge.material.Sourceable;
 
-public abstract class Bridge
+public class Bridge
+//public abstract class Bridge
 {
 	private Sourceable source;
 
