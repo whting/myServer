@@ -20,7 +20,7 @@ public class Test {
         return result.toString();
     }
 
-    public static void main(String[] args) {
+    static void bitTest(){
 
         HashMap hashMap = new HashMap();
         for (int i = 0; i < 50; i++) {
@@ -52,5 +52,9 @@ public class Test {
         System.out.println("resize分配(255):" + Integer.toBinaryString(255) + " " + (ihc & 255) + " " + Integer.toBinaryString((ihc & 255)));// resize分配(255):11111111 100 1100100
         System.out.println("resize分配(256):" + Integer.toBinaryString(256) + " " + (ihc & 256) + " " + Integer.toBinaryString((ihc & 256)));// resize分配(256):100000000 0 0
         System.out.println();
+    }
+
+    public static void main(String[] args) {
+        bitTest();
     }
 }
