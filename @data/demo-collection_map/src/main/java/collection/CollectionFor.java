@@ -1,9 +1,12 @@
+package collection;
+
 import org.apache.commons.lang.ArrayUtils;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Stream;
 
 public class CollectionFor {
 
@@ -19,21 +22,21 @@ public class CollectionFor {
     }
 
     static void forMap() {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>() {
-            {
-                put(1, 1);
-                put(2, 2);
-                put(3, 3);
-            }
-        };
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>() {{
+            put(1, 1);
+            put(2, 2);
+            put(3, 3);
+        }};
         System.out.println(map);
 
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + " " + entry.getValue());
+            System.out.print(entry.getKey() + " " + entry.getValue()+",");
         }
 
-//        Object[][] objects = {{1, 1}, {2, 2}, {3, 3}, {4, 4}};
-//        Stream.of(objects).forEach(e -> System.out.println(e[0]+" "+e[1]));
+        System.out.println();
+        Object[][] objects = {{1, 1}, {2, 2}, {3, 3}, {4, 4}};
+        Stream.of(objects).forEach(e -> System.out.print(e[0]+" "+e[1]+","));
+        System.out.println();
     }
 
     /**
@@ -48,6 +51,6 @@ public class CollectionFor {
     public static void main(String[] args) {
 //        forList();
         forMap();
-        fastMap();
+//        fastMap();
     }
 }

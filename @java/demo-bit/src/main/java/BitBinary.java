@@ -34,9 +34,50 @@ public class BitBinary {
         System.out.println(Integer.toBinaryString(~0 & (1 << 0x0A) >> 0x0A));// 第11位[1<<10]是不是1
     }
 
-    public static void main(String[] args) {
-//        bitBinary();
+    /**
+     * 复合状态(bit)
+     */
+    static void statusComplex() {
+
+
+        /* 位或"|",同位其中一个位1,结果及为1 */
+        System.out.println(Integer.toBinaryString(1 << 0x08));// 100000000
+        int status = 0;
+        status = status | (1 << 0x08);// 设置第9位状态
+        System.out.println(Integer.toBinaryString(status));// 100000000
+
+        status = status | (1 << 0x0A);// 设置第11位状态
+        System.out.println(Integer.toBinaryString(status));// 10100000000
+
+        status = status | (1 << 0x09);// 设置第10位状态
+        System.out.println(Integer.toBinaryString(status));// 11100000000
+
+
+        System.out.println("======================");
+
+        /* 为与"&",同位两个均为1,结果才为1 */
+        System.out.println(Integer.toBinaryString(~(1 << 0x08)));// 11111111111111111111111011111111
+        status = status & ~(1 << 0x08);// 取消第9位状态
+        System.out.println(Integer.toBinaryString(status));// 11000000000
+
+        status = status & ~(1 << 0x0A);// 取消第11位状态
+        System.out.println(Integer.toBinaryString(status));// 1000000000
+
+        status = status & ~(1 << 0x09);// 取消第10位状态
+        System.out.println(Integer.toBinaryString(status));// 0
+    }
+
+    /**
+     * 单一状态(enum枚举)
+     */
+    static void statusSingle() {
         System.out.printf("%s %s", OrderStatus.OPEN, OrderStatus.OPEN.getDisplay());// OPEN 未执行
+    }
+
+    public static void main(String[] args) {
+        // bitBinary();
+        statusComplex();
+        // statusSingle();
     }
 }
 

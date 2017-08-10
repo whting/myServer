@@ -19,12 +19,14 @@ public class JavaPath {
         System.out.println(ClassLoader.getSystemResource("").toURI());
         System.out.println(ClassLoader.getSystemResource("").toURI().getPath());
         System.out.println(ClassLoader.getSystemResource("").getPath());
+
+        System.out.println("--------");
         System.out.println(Thread.currentThread().getContextClassLoader().getResource("").toURI().getPath());
         System.out.println(this.getClass().getClassLoader().getResource("").toURI().getPath());
-
-        System.out.println(this.getClass().getResource("weixin_appid.properties"));
+        System.out.println(this.getClass().getResource("pathtest/weixin_appid.properties"));// null
         System.out.println(new File("weixin_appid.properties").getAbsolutePath());
-
+        System.out.println(new File("pathtest/weixin_appid.properties").getAbsolutePath());
+        System.out.println(new File("path1.properties").getAbsolutePath());
         System.out.println(System.getProperty("user.dir"));
     }
 

@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 public class MathAccuracy {
 
@@ -70,12 +71,22 @@ public class MathAccuracy {
         System.out.println(new BigDecimal(0.1).add(new BigDecimal(0.2)));    //输出：0.3000000000000000166533453693773481063544750213623046875
     }
 
+    /**
+     * decimal小数计算
+     */
+    static void decimalMath(){
+        System.out.println(0.1 + 0.2);// 0.30000000000000004
+        String decimalNumber = new DecimalFormat("0.00").format(0.1 + 0.2);
+        System.out.println(decimalNumber);// 0.30
+    }
+
     public static void main(String[] args) {
 
 //        demo();
-        floatDubleAccuracy();
+//        floatDubleAccuracy();
 
 //        bigDecimal();
+        decimalMath();
     }
 }
 

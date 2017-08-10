@@ -1,4 +1,4 @@
-package java.liux.nosql.redis;
+package redis;
 
 import redis.clients.jedis.*;
 
@@ -20,8 +20,9 @@ public class RedisClient {
     private ShardedJedisPool shardedJedisPool;// 切片连接池
 
     public RedisClient() {
-        initialPool();
-        initialShardedPool();
+        jedisPool = initialPool();
+        shardedJedisPool = initialShardedPool();
+
         shardedJedis = shardedJedisPool.getResource();
         jedis = jedisPool.getResource();
     }
@@ -29,7 +30,7 @@ public class RedisClient {
     /**
      * 初始化非切片池
      */
-    private void initialPool() {
+    private JedisPool initialPool() {
         // 池基本配置
         JedisPoolConfig config = new JedisPoolConfig();
 //        config.setMaxActive(20);
@@ -37,13 +38,13 @@ public class RedisClient {
 //        config.setMaxWait(1000l);
         config.setTestOnBorrow(false);
 
-        jedisPool = new JedisPool(config, "127.0.0.1", 6379);
+        return new JedisPool(config, "127.0.0.1", 6379);
     }
 
     /**
      * 初始化切片池
      */
-    private void initialShardedPool() {
+    private ShardedJedisPool initialShardedPool() {
         // 池基本配置
         JedisPoolConfig config = new JedisPoolConfig();
 //		config.setMaxActive(20);
@@ -56,22 +57,29 @@ public class RedisClient {
         shards.add(new JedisShardInfo("127.0.0.1", 6379, "master"));
 
         // 构造池
-        shardedJedisPool = new ShardedJedisPool(config, shards);
+        return new ShardedJedisPool(config, shards);
     }
 
-    public void show() {
-        KeyOperate();
-        // StringOperate();
-        // ListOperate();
-        // SetOperate();
-        // SortedSetOperate();
-        // HashOperate();
+    /**
+     * 入口
+     * @param args
+     */
+    public static void main(String[] args) throws InterruptedException {
+        RedisClient redisClient = new RedisClient();
+//        redisClient.KeyOperate();
+//        redisClient.StringOperate();
+         redisClient.ListOperate();
+        // redisClient.SetOperate();
+        // redisClient.SortedSetOperate();
+        // redisClient.HashOperate();
 
         // jedisPool.returnResource(jedis);
         // shardedJedisPool.returnResource(shardedJedis);
     }
 
-    private void KeyOperate() {
+    /************************************************************/
+
+    private void KeyOperate() throws InterruptedException {
         System.out.println("======================key==========================");
         // 清空数据
         System.out.println("清空库中所有数据：" + jedis.flushDB());
@@ -93,10 +101,9 @@ public class RedisClient {
         System.out.println("判断key002是否存在：" + shardedJedis.exists("key002"));
         // 设置 key001的过期时间
         System.out.println("设置 key001的过期时间为5秒:" + jedis.expire("key001", 5));
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-        }
+
+        Thread.sleep(2000);
+
         // 查看某个key的剩余生存时间,单位【秒】.永久生存或者不存在的都返回-1
         System.out.println("查看key001的剩余生存时间：" + jedis.ttl("key001"));
         // 移除某个key的生存时间
@@ -221,7 +228,7 @@ public class RedisClient {
         System.out.println("长度-stringlists：" + shardedJedis.llen("stringlists"));
         System.out.println("长度-numberlists：" + shardedJedis.llen("numberlists"));
         // 排序
-		/*
+        /*
 		 * list中存字符串时必须指定参数为alpha，如果不使用SortingParams，而是直接使用sort("list")， 会出现
 		 * "ERR One or more scores can't be converted into double"
 		 */
@@ -450,7 +457,10 @@ public class RedisClient {
     // hvals(key)：返回名称为key的hash中所有键对应的value
     // hgetall(key)：返回名称为key的hash中所有的键（field）及其对应的value
 
-    public static void main(String[] args) {
-        new RedisClient().show();
-    }
+
 }
+
+/**
+ * `Redis-cli命令最新总结 - silent - 博客园`
+ * http://www.cnblogs.com/silent2012/p/5368925.html
+ */

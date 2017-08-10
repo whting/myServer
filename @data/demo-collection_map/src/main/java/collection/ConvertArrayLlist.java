@@ -2,9 +2,7 @@ package collection;
 
 import org.apache.commons.beanutils.ConvertUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class ConvertArrayLlist {
 
@@ -18,14 +16,27 @@ public class ConvertArrayLlist {
     }
 
     /**
-     * list2rray - toArray
+     * list2Array - toArray
      */
-    static void list2rray() {
+    static void list2Array() {
         List list = new ArrayList();
         list.add("1");
         list.add("2");
         System.out.println(list.toArray());// [Ljava.lang.Object;@14ae5a5
         System.out.println(list);// [1, 2]
+    }
+
+    /**
+     * list2Set
+     */
+    static void list2Set() {
+        List list = Arrays.asList(1, 2, 3, 4);
+
+        Set set = new HashSet() {{
+            addAll(list);
+        }};
+
+        System.out.println(set);
     }
 
     /**
@@ -55,7 +66,9 @@ public class ConvertArrayLlist {
 
     public static void main(String[] args) {
         array2List();
-        list2rray();
+        list2Array();
+
+        list2Set();
 
         List2StringFormat();
         strings2Longs();
