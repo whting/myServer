@@ -15,7 +15,14 @@ public class FastColletion {
      * fastList - 快速建立
      */
     static void fastList() {
-        List list = Arrays.asList(1, 2, 3, 4);
+        List list = new ArrayList(){{
+            add(1);
+            add(2);
+            add(3);
+        }};
+        System.out.println(list);// [1, 2, 3]
+
+        list = Arrays.asList(1, 2, 3, 4);
         System.out.println(list);// [1, 2, 3, 4]
 
         list = new ArrayList();

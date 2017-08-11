@@ -12,9 +12,9 @@ public class ArraysSubDemo {
     }
 
     public static void main(String[] args) {
-        Integer [] data = {1,2,3,4,5,6,7,8,9};
+        Integer [] data = {11,12,13,14,15,16,17,18,19};
         Integer [] newData;
-        newData = Arrays.copyOfRange(data, 2, 7);
+        newData = Arrays.copyOfRange(data, 2, 7);// 截取index2开始至第7位
         System.out.println(Arrays.asList(data));
         System.out.println(Arrays.asList(newData));
     }

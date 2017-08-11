@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 /**
+ * 快速排序
  * @author liuxiang on 2017/8/10.
  */
 public class QuickSortDemo {
@@ -62,3 +63,8 @@ public class QuickSortDemo {
         System.out.println("快速排序后：" + Arrays.asList(numbers));// [-5, 0, 1, 2, 6, 7, 10, 15, 20, 55]
     }
 }
+/**
+ *
+ * `必须知道的八大种排序算法【java实现】（一） 冒泡排序、快速排序 - WhyWin - 博客园`
+ * http://www.cnblogs.com/0201zcr/p/4763806.html
+ */

@@ -4,6 +4,11 @@ import org.apache.commons.beanutils.ConvertUtils;
 
 import java.util.*;
 
+/**
+ * ﻿List,Array互转与打印
+ * 快速构建List / List 转 Array / Array 转 List
+ * 封装数组转基础数组(Integer[] 转 int[]) / 打印基础类型数组(int[])
+ */
 public class ConvertArrayLlist {
 
     /**
@@ -19,11 +24,10 @@ public class ConvertArrayLlist {
      * list2Array - toArray
      */
     static void list2Array() {
-        List list = new ArrayList();
-        list.add("1");
-        list.add("2");
-        System.out.println(list.toArray());// [Ljava.lang.Object;@14ae5a5
-        System.out.println(list);// [1, 2]
+        List list = Arrays.asList(1, 2);
+        Integer[] arrays = (Integer[]) list.toArray();
+        System.out.println(arrays);// [Ljava.lang.Object;@14ae5a5
+        System.out.println(Arrays.asList(arrays));// [1, 2]
     }
 
     /**
@@ -40,15 +44,12 @@ public class ConvertArrayLlist {
     }
 
     /**
-     * List2StringFormat 格式化
+     * List2StringFormat 格式化 (aa,bb,cc)
      */
     static void List2StringFormat() {
-        List<String> a = new ArrayList<String>();
-        a.add("aa");
-        a.add("bb");
-        a.add("cc");
+        List<String> a = Arrays.asList("aa", "bb", "cc");
         System.out.println(a.toString().replace("[", "").replace("]", "").replace(" ", ""));
-        // aa,bb,cc
+
     }
 
     static void strings2Longs() {
@@ -57,12 +58,16 @@ public class ConvertArrayLlist {
     }
 
     /**
-     * fastList - 快速建立
+     * 封装数组转基础数组(Integer[] 转 int[])
      */
-    static void fastList() {
-        List list = Arrays.asList(1, 2, 3, 4);
-        System.out.println(list);// [1, 2, 3, 4]
+    static void IntegerArray2intArray() {
+        Integer[] values = {1, 2, 3, 4, 5};
+        int[] valuesI = new int[values.length];
+        Arrays.stream(values).forEachOrdered(i -> valuesI[i - 1] = values[i - 1].intValue());// 封装数组转基础数组(Integer[] 转 int[])
+        Arrays.stream(valuesI).forEach(value -> System.out.print(value + ", "));// 打印基础类型数组(int[])
     }
+
+
 
     public static void main(String[] args) {
         array2List();
@@ -73,6 +78,7 @@ public class ConvertArrayLlist {
         List2StringFormat();
         strings2Longs();
 
-        fastList();
+        IntegerArray2intArray();
+
     }
 }

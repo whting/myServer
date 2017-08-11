@@ -8,6 +8,30 @@ import java.util.List;
  */
 public class SortingDemo {
 
+    public static void main(String[] args) {
+        /* 简单排序 */
+//        EasySort.bubbleList();// 冒泡
+//        EasySort.bubbleArray();// 冒泡
+//        EasySort.xuanze();// 选择
+//        EasySort.charu();// 插入
+
+        /* 高效排序 */
+//        QuickSort.quickSort();// 快排
+//        MergeSort.mergeSort();// 归并排序(分治递归思想)
+        ShellSort.shellSort();// 希尔排序(插入排序的一种高效率的实现，也叫缩小增量排序)
+        // 堆排序(升序排序就使用大顶堆，反之使用小顶堆)
+
+        /* 线性排序 */
+        // 计数排序
+        // 桶排序
+        // 基数排序
+    }
+}
+
+/**
+ * 简单排序
+ */
+class EasySort {
     /**
      * 冒泡排序 List
      * <p>
@@ -119,19 +143,25 @@ public class SortingDemo {
             System.out.println(Arrays.asList(values));
         }
     }
+}
 
+/**
+ * 快速排序
+ */
+class QuickSort {
     /**
      * 快速排序的基本思想：通过一趟排序将待排序记录分割成独立的两部分，其中一部分记录的关键字均比另一部分关键字小，
      * 则分别对这两部分继续进行排序，直到整个序列有序。
      */
-    static void quick() {
+    static void quickSort() {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
         Collections.shuffle(list);// list随机打乱
+        System.out.println("======(分区)");
         Integer[] values = (Integer[]) list.toArray();
         System.out.println(Arrays.asList(values));
         quickSortEasy(values, 0, values.length - 1);
 
-        System.out.println("======");
+        System.out.println("======(交换)");
         values = (Integer[]) list.toArray();
         System.out.println(Arrays.asList(values));
         quickSort(values, 0, values.length - 1);
@@ -140,6 +170,7 @@ public class SortingDemo {
 
     /**
      * 分治法-分区(方便理解)
+     *
      * @param values
      * @param begin
      * @param end
@@ -181,7 +212,12 @@ public class SortingDemo {
         return middleIndex;
     }
 
-
+    /**
+     * 分治法-交换(节省内存空间)
+     * @param values
+     * @param begin
+     * @param end
+     */
     static void quickSort(Integer[] values, int begin, int end) {
         if (begin >= end) return;
 
@@ -195,13 +231,6 @@ public class SortingDemo {
     }
 
 
-    /**
-     * 分治法-交换(节省内存空间)
-     * @param numbers
-     * @param low
-     * @param high
-     * @return
-     */
     public static int getMiddle(Integer[] numbers, int low, int high) {
 
         // 示例:[6, 2, 1, 8, 5, 4, 9, 3, 7]中轴值为6,分治法结果[32145]6[987](交换)/[21543]6[897](分区)
@@ -212,7 +241,7 @@ public class SortingDemo {
             while (low < high && numbers[high] > temp) {// 先最高位与中轴值比较
                 high--;
             }
-            numbers[low] = numbers[high];//比中轴小的记录移到低端
+            numbers[low] = numbers[high];// 比中轴小的记录移到低端
             numbers[high] = null;// 原位置值已经转移,未来也会被分治法的新值覆盖,可省略.但标记null,方便理解
             while (low < high && numbers[low] < temp) {
                 low++;
@@ -224,19 +253,113 @@ public class SortingDemo {
         return low; // 返回中轴的位置
     }
 
-    public static void main(String[] args) {
-//        bubbleList();
-//        bubbleArray();
-//        xuanze();
-//        charu();
-        quick();
+}
+
+/**
+ * 归并排序
+ */
+class MergeSort {
+    static void mergeSort() {
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+        Collections.shuffle(list);// list随机打乱
+        Integer[] values = (Integer[]) list.toArray();
+        System.out.println(Arrays.asList(values));
+
+        middleSort(values, 0, values.length);
+    }
+
+    static int markNum=0;
+
+    static void middleSort(Integer[] values, int beginIndex, int endIndex) {
+        if (!(beginIndex < endIndex))
+            return;
+
+        int mid = (beginIndex + endIndex) / 2;// 取中位index
+
+        middleSort(values, beginIndex, mid);// 左侧递归再分,到不可再分
+        middleSort(values, mid + 1, endIndex);// 右侧递归再分,到不可再分
+
+        // 对最近的二分数据进行合并. 如:[5,6,7][1,2]
+        // 待合并的二分数据,已经基本有序,所有使用`插入排序`进行合并,具备更高的性能(因为移动的位置较少)且不需要更多的内存仅需一个交换变量.(或考虑希尔排序)
+        for (int i = beginIndex + 1; i < endIndex; i++) {
+            for (int j = beginIndex; j < i; j++) {
+                if (values[i] < values[j]) {
+                    int temp = values[j];
+                    values[j] = values[i];
+                    values[i] = temp;
+                    System.out.println("markNum:"+markNum++);
+                }
+            }
+        }
+        System.out.println(Arrays.asList(values));
+
     }
 }
 
 /**
+ * 希尔排序
+ */
+class ShellSort {
+
+     static void shellSort() {
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+        Collections.shuffle(list);// list随机打乱
+        Integer[] values = (Integer[]) list.toArray();// List 转 Array
+        System.out.println(Arrays.asList(values));
+
+        int[] valuesI = new int[values.length];
+        Arrays.stream(values).forEachOrdered(i -> valuesI[i - 1] = values[i - 1].intValue());// 封装数组转基础数组(Integer[] 转 int[])
+        Arrays.stream(valuesI).forEach(value -> System.out.print(value + ", "));// 打印基础类型数组(int[])
+        System.out.println();
+
+        int[] valuesI2 = new int[]{8, 7, 4, 1, 3, 5, 6, 2, 9};// 自定义
+        shellSort(valuesI2);
+        Arrays.stream(valuesI2).forEach(value -> System.out.print(value + ", "));// 打印基础类型数组(int[])
+    }
+
+    /**
+     * 希尔排序的一趟插入
+     *
+     * @param arr 待排数组
+     * @param d   增量
+     */
+    public static void shellInsert(int[] arr, int d) {
+        System.out.println("d:" + d);
+        for (int i = d; i < arr.length; i++) {
+            int j = i - d;
+            int temp = arr[i];    //记录要插入的数据
+            while (j >= 0 && arr[j] > temp) {  //从后向前，找到比其小的数的位置
+                arr[j + d] = arr[j];    //向后挪动
+                j -= d;
+            }
+
+            if (j != i - d)    //存在比其小的数
+                arr[j + d] = temp;
+
+            Arrays.stream(arr).forEach(value -> System.out.print(value + ", "));// 打印基础类型数组(int[])
+            System.out.println();
+        }
+    }
+
+    public static void shellSort(int[] arr) {
+        if (arr == null || arr.length == 0)
+            return;
+        int d = arr.length / 2;
+        while (d >= 1) {
+            shellInsert(arr, d);
+            d /= 2;
+        }
+    }
+
+}
+
+/**
+ * `﻿★面试中的排序算法总结 - 简书`
+ * http://www.jianshu.com/p/c360a58db21d
+ * <p>
+ * `三种简单排序算法（java实现） - rising1234 - 博客园`
+ * http://www.cnblogs.com/coderising/archive/2016/07/22/5697072.html
+ * <p>
  * `java使数组元素打乱? - 知乎`
  * https://www.zhihu.com/question/31979419
- * <p>
- * 三种简单排序算法（java实现） - rising1234 - 博客园
- * http://www.cnblogs.com/coderising/archive/2016/07/22/5697072.html
  */

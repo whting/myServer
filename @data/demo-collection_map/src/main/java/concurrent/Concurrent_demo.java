@@ -25,9 +25,8 @@ public class Concurrent_demo {
         System.out.println("names = " + names);
     }
 
-
     public static void main(String[] args) {
-        concurrentHashMap();
-        concurrentSetTest();
+        concurrentHashMap();// 并发map
+        concurrentSetTest();// 并发Set
     }
 }
