@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo-EJB</artifactId>
+    <artifactId>demo-rpc_socket</artifactId>
 
 
 </project>
