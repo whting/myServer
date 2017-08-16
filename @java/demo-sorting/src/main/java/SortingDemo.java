@@ -16,9 +16,9 @@ public class SortingDemo {
 //        EasySort.charu();// 插入
 
         /* 高效排序 */
-//        QuickSort.quickSort();// 快排
+        QuickSort.quickSort();// 快排
 //        MergeSort.mergeSort();// 归并排序(分治递归思想)
-        ShellSort.shellSort();// 希尔排序(插入排序的一种高效率的实现，也叫缩小增量排序)
+//        ShellSort.shellSort();// 希尔排序(插入排序的一种高效率的实现，也叫缩小增量排序)
         // 堆排序(升序排序就使用大顶堆，反之使用小顶堆)
 
         /* 线性排序 */
@@ -161,10 +161,11 @@ class QuickSort {
         System.out.println(Arrays.asList(values));
         quickSortEasy(values, 0, values.length - 1);
 
+
         System.out.println("======(交换)");
         values = (Integer[]) list.toArray();
         System.out.println(Arrays.asList(values));
-        quickSort(values, 0, values.length - 1);
+        quickSortSwap(values, 0, values.length - 1);
 
     }
 
@@ -218,7 +219,7 @@ class QuickSort {
      * @param begin
      * @param end
      */
-    static void quickSort(Integer[] values, int begin, int end) {
+    static void quickSortSwap(Integer[] values, int begin, int end) {
         if (begin >= end) return;
 
         int middleIndex = getMiddle(values, begin, end);
@@ -226,8 +227,8 @@ class QuickSort {
         System.out.printf("begin:%d end:%d middleIndex:%d(value=%d) %n", begin, end, middleIndex, values[middleIndex]);
         System.out.println(Arrays.asList(values));// 定位中位数时,已经完成分治
 
-        quickSortEasy(values, begin, middleIndex - 1);
-        quickSortEasy(values, middleIndex + 1, end);
+        quickSortSwap(values, begin, middleIndex - 1);
+        quickSortSwap(values, middleIndex + 1, end);
     }
 
 

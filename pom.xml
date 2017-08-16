@@ -11,20 +11,25 @@
 
 
     <modules>
-        <module>myServe-Common</module>
-        <module>myServe-Service</module>
-        <module>myServe-Web</module>
-        <module>myServe-UI</module>
+        <module>@project/myServe-Common</module>
+        <module>@project/myServe-Service</module>
+        <module>@project/myServe-Web</module>
+        <module>@project/myServe-UI</module>
 
         <module>@java/demo-java8</module>
         <module>@java/demo-proxy</module>
         <module>@java/demo-enum</module>
         <module>@java/demo-bit</module>
         <module>@java/demo-at_interface</module>
+        <module>@java/demo-designPatterns</module>
+        <module>@java/demo-java_common</module>
+        <module>@java/demo-math</module>
+        <module>@java/demo-sorting</module>
 
         <module>@rpc/demo-dubbo-server</module>
         <module>@rpc/demo-dubbo-client</module>
         <module>@rpc/demo-webService</module>
+        <module>@rpc/demo-rpc_socket</module>
         <module>@rpc/demo-rmi</module>
 
         <module>@async_thread_queue/demo-thread</module>
@@ -34,6 +39,7 @@
 
         <module>@jvm/demo-jstackAnalyse</module>
         <module>@jvm/demo-jvm</module>
+        <module>@jvm/demo-classLoader</module>
 
         <module>@data/demo-collection_map</module>
         <module>@data/demo-consistentHash</module>
@@ -43,13 +49,10 @@
 
         <module>@nosql/demo-nosql</module>
 
-        <module>demo-designPatterns</module>
-        <module>@rpc/demo-rpc_socket</module>
-        <module>@jvm/demo-classLoader</module>
         <module>@bigData/demo-hadoop_learn</module>
-        <module>@java/demo-java_common</module>
-        <module>@java/demo-math</module>
-        <module>@java/demo-sorting</module>
+
+        <module>@spring/springweb</module>
+        <module>@spring/springweb</module>
 
         <!--<module>demo-spring-boot</module>-->
     </modules>
