@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@app/demo-spider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@async_thread_queue/demo-io_nio_socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@async_thread_queue/demo-thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@bigData/demo-hadoop_learn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@data/demo-collection_map" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@data/demo-consistentHash" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@data/demo-dataStructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-at_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-bit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-designPatterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-enum" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-java8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-java_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-math" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-sorting" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@jvm/demo-classLoader" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@jvm/demo-jstackAnalyse" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@jvm/demo-jvm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@nosql/demo-nosql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@project/myServe-Common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@project/myServe-Service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@project/myServe-UI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@project/myServe-Web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@rpc/demo-dubbo-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@rpc/demo-dubbo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@rpc/demo-rmi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@rpc/demo-rpc_socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@rpc/demo-webService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@spring/springweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@springBoot/springbootweb" charset="UTF-8" />
+  </component>
+</project>

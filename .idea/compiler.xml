@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-at_interface" />
+        <module name="demo-bit" />
+        <module name="demo-classLoader" />
+        <module name="demo-collection_map" />
+        <module name="demo-consistentHash" />
+        <module name="demo-dataStructure" />
+        <module name="demo-designPatterns" />
+        <module name="demo-dubbo-client" />
+        <module name="demo-dubbo-server" />
+        <module name="demo-EJB" />
+        <module name="demo-enum" />
+        <module name="demo-hadoop_learn" />
+        <module name="demo-io_nio_socket" />
+        <module name="demo-java8" />
+        <module name="demo-java_common" />
+        <module name="demo-jstackAnalyse" />
+        <module name="demo-jvm" />
+        <module name="demo-kafka" />
+        <module name="demo-math" />
+        <module name="demo-nosql" />
+        <module name="demo-proxy" />
+        <module name="demo-rmi" />
+        <module name="demo-rpc_socket" />
+        <module name="demo-sorting" />
+        <module name="demo-spider" />
+        <module name="demo-thread" />
+        <module name="demo-webService" />
+        <module name="demo-websockets" />
+        <module name="myServe-Common" />
+        <module name="myServe-Service" />
+        <module name="myServe-UI" />
+        <module name="myServe-Web" />
+        <module name="springbootweb" />
+        <module name="springweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-at_interface" target="1.8" />
+      <module name="demo-bit" target="1.8" />
+      <module name="demo-classLoader" target="1.8" />
+      <module name="demo-collection_map" target="1.8" />
+      <module name="demo-consistentHash" target="1.8" />
+      <module name="demo-dataStructure" target="1.8" />
+      <module name="demo-designPatterns" target="1.8" />
+      <module name="demo-dubbo-client" target="1.8" />
+      <module name="demo-dubbo-server" target="1.8" />
+      <module name="demo-EJB" target="1.8" />
+      <module name="demo-enum" target="1.8" />
+      <module name="demo-hadoop_learn" target="1.8" />
+      <module name="demo-io_nio_socket" target="1.8" />
+      <module name="demo-java8" target="1.8" />
+      <module name="demo-java_common" target="1.8" />
+      <module name="demo-jstackAnalyse" target="1.8" />
+      <module name="demo-jvm" target="1.8" />
+      <module name="demo-kafka" target="1.8" />
+      <module name="demo-math" target="1.8" />
+      <module name="demo-nosql" target="1.8" />
+      <module name="demo-proxy" target="1.8" />
+      <module name="demo-rmi" target="1.8" />
+      <module name="demo-rpc_socket" target="1.8" />
+      <module name="demo-sorting" target="1.8" />
+      <module name="demo-spider" target="1.8" />
+      <module name="demo-thread" target="1.8" />
+      <module name="demo-webService" target="1.8" />
+      <module name="demo-websockets" target="1.8" />
+      <module name="myServe-Common" target="1.8" />
+      <module name="myServe-Service" target="1.8" />
+      <module name="myServe-UI" target="1.8" />
+      <module name="myServe-Web" target="1.8" />
+      <module name="myServer" target="1.8" />
+      <module name="springbootweb" target="1.8" />
+      <module name="springweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
