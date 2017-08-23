@@ -10,16 +10,7 @@ public class SqlAutoParamters {
     public static void main(String[] args) throws NoSuchMethodException {
 
         // TODO 待java多行字符串方法优化,去除繁杂的字符串加工
-        String autoParameters = "" +
-                "[2017-08-07 11:31:50]  DEBUG queryByPage - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@aba6537]\n" +
-                "[2017-08-07 11:31:50]  DEBUG queryByPage - ==>  Preparing: SELECT `contract`.* FROM `contract` where `contract`.`is_deleted`='N' order BY `contract`.`gmt_create` DESC LIMIT ?, ? \n" +
-                "[2017-08-07 11:31:50]  DEBUG queryByPage - ==> Parameters: 0(Integer), 10(Integer)\n" +
-                "[2017-08-07 11:31:50]  DEBUG queryByPage - <==      Total: 10\n" +
-                "[2017-08-07 11:31:50]  DEBUG Timer - [billing]  操作计时：155ms cn.fraudmetrix.billing.dubbo.OaManagerImpl.getContractByPage(..) result:[cn.fraudmetrix.billing.client.oa.object.ContractRecord@7880205, cn.fraudmetrix.billing.client.oa.object.ContractRecord@58df654b, cn.fraudmetrix.billing.client.oa.object.ContractRecord@36456296, cn.fraudmetrix.billing.client.oa.object.ContractRecord@20f85b7a, cn.fraudmetrix.billing.client.oa.object.ContractRecord@67a7fd4a, cn.fraudmetrix.billing.client.oa.object.ContractRecord@44f139c8, cn.fraudmetrix.billing.client.oa.object.ContractRecord@59bda212, cn.fraudmetrix.billing.client.oa.object.ContractRecord@3bfc11d4, cn.fraudmetrix.billing.client.oa.object.ContractRecord@63e9e64c, cn.fraudmetrix.billing.client.oa.object.ContractRecord@2e9bbc80]\n" +
-                "[2017-08-07 11:31:50]  DEBUG countByPage - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@aba6537]\n" +
-                "[2017-08-07 11:31:50]  DEBUG countByPage - ==>  Preparing: SELECT COUNT(*) FROM `contract` WHERE `contract`.`is_deleted`='N' \n" +
-                "[2017-08-07 11:31:50]  DEBUG countByPage - ==> Parameters: \n" +
-                "[2017-08-07 11:31:50]  DEBUG countByPage - <==      Total: 1\n";
+        String autoParameters = "";
         // System.out.println(autoParameters);
 
         // 多sql
@@ -88,19 +79,3 @@ public class SqlAutoParamters {
         return queue;
     }
 }
-
-/**
- * [2017-08-07 10:10:00]  DEBUG queryByPage - ==>  Preparing: SELECT `flow_account`.* FROM `flow_account` LEFT JOIN `service` ON `flow_account`.`service`=`service`.`name` WHERE `flow_account`.`partner_code` IN (?,?,?,?,?) AND `flow_account`.`deleted`=0 ORDER BY `flow_account`.`gmt_begin` DESC LIMIT ?, ?
- * [2017-08-07 10:10:00]  DEBUG queryByPage - ==> Parameters: 11111111111111scUf(String), 0202(String), 0125_com(String), 111111(String), 1111(String), 0(Integer), 10(Integer)
- * [2017-08-07 10:10:00]  DEBUG queryByPage - <==      Total: 7
- * <p>
- * [2017-08-07 11:31:50]  DEBUG queryByPage - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@aba6537]
- * [2017-08-07 11:31:50]  DEBUG queryByPage - ==>  Preparing: SELECT `contract`.* FROM `contract` where `contract`.`is_deleted`='N' order BY `contract`.`gmt_create` DESC LIMIT ?, ?
- * [2017-08-07 11:31:50]  DEBUG queryByPage - ==> Parameters: 0(Integer), 10(Integer)
- * [2017-08-07 11:31:50]  DEBUG queryByPage - <==      Total: 10
- * [2017-08-07 11:31:50]  DEBUG Timer - [billing]  操作计时：155ms cn.fraudmetrix.billing.dubbo.OaManagerImpl.getContractByPage(..) result:[cn.fraudmetrix.billing.client.oa.object.ContractRecord@7880205, cn.fraudmetrix.billing.client.oa.object.ContractRecord@58df654b, cn.fraudmetrix.billing.client.oa.object.ContractRecord@36456296, cn.fraudmetrix.billing.client.oa.object.ContractRecord@20f85b7a, cn.fraudmetrix.billing.client.oa.object.ContractRecord@67a7fd4a, cn.fraudmetrix.billing.client.oa.object.ContractRecord@44f139c8, cn.fraudmetrix.billing.client.oa.object.ContractRecord@59bda212, cn.fraudmetrix.billing.client.oa.object.ContractRecord@3bfc11d4, cn.fraudmetrix.billing.client.oa.object.ContractRecord@63e9e64c, cn.fraudmetrix.billing.client.oa.object.ContractRecord@2e9bbc80]
- * [2017-08-07 11:31:50]  DEBUG countByPage - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@aba6537]
- * [2017-08-07 11:31:50]  DEBUG countByPage - ==>  Preparing: SELECT COUNT(*) FROM `contract` WHERE `contract`.`is_deleted`='N'
- * [2017-08-07 11:31:50]  DEBUG countByPage - ==> Parameters:
- * [2017-08-07 11:31:50]  DEBUG countByPage - <==      Total: 1
- */
