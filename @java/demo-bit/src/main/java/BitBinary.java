@@ -134,7 +134,7 @@ class OrderDO {
 /**
  * OrderMapper.xml
  * <p>
- * <mapper namespace="cn.fraudmetrix.billing.dal.mysql.billing.dao.OrderDAO">
+ * <mapper namespace="***.OrderDAO">
  * <resultMap id="OrderMap" type="OrderDO">
  * <result property="status" column="status"/>
  * </resultMap>

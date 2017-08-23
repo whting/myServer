@@ -112,7 +112,7 @@ public class ConsoleLink {
         System.out.println("at 'test.ConsoleLink.test5' 1 ");
         System.out.println("at ' test.ConsoleLink#test5 ' 1 ");
         System.out.println("SLF4J: See http://www.slf4j.org/codes.html for an explanation.");
-        System.out.println("Error creating bean with name 'cn.fraudmetrix.billing.job.OrderMonitorJob#0' ");
+        System.out.println("Error creating bean with name '***.job.OrderMonitorJob#0' ");
         System.out.println("Error creating bean with name 'ConsoleLink' ");
 
     }
