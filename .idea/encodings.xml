@@ -33,6 +33,7 @@
     <file url="file://$PROJECT_DIR$/@rpc/demo-rmi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@rpc/demo-rpc_socket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@rpc/demo-webService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@spring/springContext" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@spring/springweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@springBoot/springbootweb" charset="UTF-8" />
   </component>

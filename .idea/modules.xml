@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/@project/myServe-UI/myServe-UI.iml" filepath="$PROJECT_DIR$/@project/myServe-UI/myServe-UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/@project/myServe-Web/myServe-Web.iml" filepath="$PROJECT_DIR$/@project/myServe-Web/myServe-Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/myServer.iml" filepath="$PROJECT_DIR$/.idea/myServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/@spring/springContext/springContext.iml" filepath="$PROJECT_DIR$/@spring/springContext/springContext.iml" />
       <module fileurl="file://$PROJECT_DIR$/@springBoot/springbootweb/springbootweb.iml" filepath="$PROJECT_DIR$/@springBoot/springbootweb/springbootweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/@spring/springweb/springweb.iml" filepath="$PROJECT_DIR$/@spring/springweb/springweb.iml" />
     </modules>

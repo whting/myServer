@@ -39,6 +39,7 @@
         <module name="myServe-UI" />
         <module name="myServe-Web" />
         <module name="springbootweb" />
+        <module name="springContext" />
         <module name="springweb" />
       </profile>
     </annotationProcessing>
@@ -77,7 +78,9 @@
       <module name="myServe-Web" target="1.8" />
       <module name="myServer" target="1.8" />
       <module name="springbootweb" target="1.8" />
+      <module name="springContext" target="1.8" />
       <module name="springweb" target="1.8" />
+      <module name="webtest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -53,6 +53,8 @@
 
         <module>@spring/springweb</module>
         <module>@spring/springweb</module>
+        <module>webtest</module>
+        <module>@spring/springContext</module>
 
         <!--<module>demo-spring-boot</module>-->
     </modules>

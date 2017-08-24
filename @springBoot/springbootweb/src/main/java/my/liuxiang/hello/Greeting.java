@@ -1,4 +1,4 @@
-package hello;
+package my.liuxiang.hello;
 
 public class Greeting {
 
