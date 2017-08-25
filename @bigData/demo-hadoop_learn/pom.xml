@@ -12,6 +12,7 @@
 
     <artifactId>demo-hadoop_learn</artifactId>
 
+    <!-- 因hadoop仓库较大,不建议直接拉取.可通过引用hadoop文件目录lib -->
     <dependencies>
         <!--&lt;!&ndash; Hadoop Common and Hadoop HDFS &ndash;&gt;-->
         <!--<dependency>-->

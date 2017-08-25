@@ -7,6 +7,15 @@ import org.springframework.context.annotation.*;
 @ComponentScan
 public class Application {
 
+
+    MessageService mockMessageServiceNotBean() {
+        return new MessageService() {
+            public String getMessage() {
+                return "Hello World!";
+            }
+        };
+    }
+
     @Bean
     MessageService mockMessageService() {
         return new MessageService() {
@@ -17,9 +26,12 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        ApplicationContext context =
-                new AnnotationConfigApplicationContext(Application.class);
+
+//        ApplicationContext ctx=WebApplicationContextUtils.getWebApplicationContext();
+
+        ApplicationContext context = new AnnotationConfigApplicationContext(Application.class);
         MessagePrinter printer = context.getBean(MessagePrinter.class);
         printer.printMessage();
     }
 }
+
