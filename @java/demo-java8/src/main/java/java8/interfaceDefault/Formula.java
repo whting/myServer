@@ -23,6 +23,7 @@ public class Formula {
 @FunctionalInterface
 interface FormulaI {
 
+	/*(@FunctionalInterface函数接口仅能有一个方法,否则lambda实现时就不能明确实现哪个方法)*/
 	double calculate(int a);
 
 	/**

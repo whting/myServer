@@ -14,9 +14,13 @@ public class CollectionFor {
             System.out.print(integer + " ");
         }
 
-        System.out.println();
-
+        System.out.println("\n---");
         list.stream().forEach(value -> System.out.print(value + " "));// java8 stream
+        System.out.println("\n---");
+        list.stream().forEach(System.out::print);// java8 stream
+        System.out.println("\n---");
+        list.forEach(System.out::print);// iterable
+        System.out.println();
     }
 
     static void forMap() {
@@ -39,6 +43,6 @@ public class CollectionFor {
 
     public static void main(String[] args) {
         forList();
-        forMap();
+//        forMap();
     }
 }

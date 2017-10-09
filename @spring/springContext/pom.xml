@@ -18,6 +18,12 @@
             <artifactId>spring-context</artifactId>
             <version>4.3.10.RELEASE</version>
         </dependency>
+
+        <!-- 将现有的jakarta commons logging的调用转换成lsf4j的调用。 -->
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-api</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
 </project>

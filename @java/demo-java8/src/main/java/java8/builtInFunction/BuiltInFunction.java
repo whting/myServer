@@ -252,11 +252,11 @@ public class BuiltInFunction {
 
     public static void main(String[] args) {
         predicate();// 断言
-        function();// 功能函数
-        consumer();//
-        comparator();//
-        optional();
-        stream();
+//        function();// 功能函数
+//        consumer();//
+//        comparator();//
+//        optional();
+//        stream();
     }
 }
 

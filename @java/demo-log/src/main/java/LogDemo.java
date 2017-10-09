@@ -1,8 +1,8 @@
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-public class Test {
-    private static Log log = LogFactory.getLog(Test.class);
+public class LogDemo {
+    private static Log log = LogFactory.getLog(LogDemo.class);
 
     public void log(){
        log.debug("Debug info.");
@@ -13,7 +13,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-       Test test = new Test();
+       LogDemo test = new LogDemo();
        test.log();
     }
 }

@@ -1,4 +1,7 @@
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Vector;
 
 /**
  * Created by Administrator on 2017/5/13 0013.
@@ -20,7 +23,7 @@ public class Test {
         return result.toString();
     }
 
-    static void bitTest(){
+    static void bitTest() {
 
         HashMap hashMap = new HashMap();
         for (int i = 0; i < 50; i++) {
@@ -54,7 +57,9 @@ public class Test {
         System.out.println();
     }
 
+
+
     public static void main(String[] args) {
-        bitTest();
+
     }
 }

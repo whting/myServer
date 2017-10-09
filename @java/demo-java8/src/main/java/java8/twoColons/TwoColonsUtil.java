@@ -17,9 +17,19 @@ class TwoColonsUtil {
 
 	public static void main(String[] args) {
 
+		// java6 实现
+		FuncI funcI6 = new FuncI() {
+			@Override
+			public String get(String a, String b) {
+				return a + ";" + b;
+			}
+		};
+
+		System.out.println("java6 "+funcI6.get("aaa", "bbb"));
+
 		// lambda 实现
 		FuncI f0 = (a, b) -> a + ";" + b;
-		System.out.println(f0.get("aaa", "bbb"));
+		System.out.println("lambda "+f0.get("aaa", "bbb"));
 
 		/**
 		 * @我的理解:依据函数接口`FuncI`的定义 ,进行匿名函数实现的封装
@@ -30,17 +40,17 @@ class TwoColonsUtil {
 		 * @TwoColonsUtil:: 只是为了找到getSomething
 		 */
 		FuncI f = TwoColonsUtil::getSomething;
-		System.out.println(f.get("aaa", "bbb"));
+		System.out.println("::(实现方法提取)-str"+f.get("aaa", "bbb"));
 
 		/** 封装后可供不同的@FunctionInterface所使用 */
 		FuncI f1 = TwoColonsUtil::getSomethingObj;
-		System.out.println(f.get("aaa", "bbb"));
+		System.out.println("::(实现方法提取)-obj"+f.get("aaa", "bbb"));
 
 		FuncI2 f2 = TwoColonsUtil::getSomethingObj;
-		System.out.println(f.get("aaa", "bbb"));
+		System.out.println("::(实现方法提取)-obj"+f.get("aaa", "bbb"));
 
 		// `TwoColonsUtil::getSomething`对应对象
-		System.out.println(((FuncI) TwoColonsUtil::getSomething).get("aaa", "bbb"));
+		System.out.println("::(实现方法提取)>强转类型"+((FuncI) TwoColonsUtil::getSomething).get("aaa", "bbb"));
 
 		// 非静态
 		FuncI ff = new TwoColonsUtil()::doGet;
@@ -51,10 +61,23 @@ class TwoColonsUtil {
 
 @FunctionalInterface
 interface FuncI {
+	/*(@FunctionalInterface函数接口仅能有一个方法,否则lambda实现时就不能明确实现哪个方法)*/
 	public String get(String a, String b);
+
+	/**
+	 * java 8 为接口增加了默认函数实体,且不要求继承实现 (此不做演示)
+	 *
+	 * @param a
+	 * @return
+	 */
+	default double sqrt(int a) {
+		return Math.sqrt(a);
+	}
 }
 
 @FunctionalInterface
 interface FuncI2 {
+
+	/*(@FunctionalInterface函数接口仅能有一个方法,否则lambda实现时就不能明确实现哪个方法)*/
 	public String get(int a, int b);
 }

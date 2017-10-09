@@ -1,6 +1,7 @@
 package java8.twoColons;
 
 class TwoColonsNew {
+
 	public String name;
 
 	public TwoColonsNew(String name) {
