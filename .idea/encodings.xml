@@ -11,15 +11,18 @@
     <file url="file://$PROJECT_DIR$/@data/demo-collection_map" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@data/demo-consistentHash" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@data/demo-dataStructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-QPS" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-at_interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-bit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-designPatterns" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-enum" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-java8" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-java_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo-log" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-math" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-proxy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@java/demo-sorting" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@java/demo_idea" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@jvm/demo-classLoader" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@jvm/demo-jstackAnalyse" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@jvm/demo-jvm" charset="UTF-8" />
@@ -34,7 +37,7 @@
     <file url="file://$PROJECT_DIR$/@rpc/demo-rpc_socket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@rpc/demo-webService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@spring/springContext" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/@spring/springweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/@spring/springWeb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/@springBoot/springbootweb" charset="UTF-8" />
   </component>
 </project>

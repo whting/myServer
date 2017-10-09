@@ -4,7 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/@project/myServe-Web" />
     <file type="web" url="file://$PROJECT_DIR$/@rpc/demo-dubbo-client" />
     <file type="web" url="file://$PROJECT_DIR$/@rpc/demo-webService" />
-    <file type="web" url="file://$PROJECT_DIR$/@spring/springweb" />
+    <file type="web" url="file://$PROJECT_DIR$/@spring/springWeb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

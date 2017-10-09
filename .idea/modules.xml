@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/@java/demo-QPS/demo-QPS.iml" filepath="$PROJECT_DIR$/@java/demo-QPS/demo-QPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/@java/demo-at_interface/demo-at_interface.iml" filepath="$PROJECT_DIR$/@java/demo-at_interface/demo-at_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/@java/demo-bit/demo-bit.iml" filepath="$PROJECT_DIR$/@java/demo-bit/demo-bit.iml" />
       <module fileurl="file://$PROJECT_DIR$/@jvm/demo-classLoader/demo-classLoader.iml" filepath="$PROJECT_DIR$/@jvm/demo-classLoader/demo-classLoader.iml" />
@@ -21,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/@async_thread_queue/demo-kafka/demo-kafka.iml" filepath="$PROJECT_DIR$/@async_thread_queue/demo-kafka/demo-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/@kotlin/demo-kotlin-javaScript/demo-kotlin-javaScript.iml" filepath="$PROJECT_DIR$/@kotlin/demo-kotlin-javaScript/demo-kotlin-javaScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/@kotlin/demo-kotlin-jvm/demo-kotlin-jvm.iml" filepath="$PROJECT_DIR$/@kotlin/demo-kotlin-jvm/demo-kotlin-jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/@java/demo-log/demo-log.iml" filepath="$PROJECT_DIR$/@java/demo-log/demo-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/@java/demo-math/demo-math.iml" filepath="$PROJECT_DIR$/@java/demo-math/demo-math.iml" />
       <module fileurl="file://$PROJECT_DIR$/@nosql/demo-nosql/demo-nosql.iml" filepath="$PROJECT_DIR$/@nosql/demo-nosql/demo-nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/@java/demo-proxy/demo-proxy.iml" filepath="$PROJECT_DIR$/@java/demo-proxy/demo-proxy.iml" />
@@ -33,14 +35,15 @@
       <module fileurl="file://$PROJECT_DIR$/@rpc/demo-webService_web_client/demo-webService_web_client.iml" filepath="$PROJECT_DIR$/@rpc/demo-webService_web_client/demo-webService_web_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/@rpc/demo-webService_web_server/demo-webService_web_server.iml" filepath="$PROJECT_DIR$/@rpc/demo-webService_web_server/demo-webService_web_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/@async_thread_queue/demo-websockets/demo-websockets.iml" filepath="$PROJECT_DIR$/@async_thread_queue/demo-websockets/demo-websockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/@java/demo_idea/demo_idea.iml" filepath="$PROJECT_DIR$/@java/demo_idea/demo_idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/@project/myServe-Common/myServe-Common.iml" filepath="$PROJECT_DIR$/@project/myServe-Common/myServe-Common.iml" />
       <module fileurl="file://$PROJECT_DIR$/@project/myServe-Service/myServe-Service.iml" filepath="$PROJECT_DIR$/@project/myServe-Service/myServe-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/@project/myServe-UI/myServe-UI.iml" filepath="$PROJECT_DIR$/@project/myServe-UI/myServe-UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/@project/myServe-Web/myServe-Web.iml" filepath="$PROJECT_DIR$/@project/myServe-Web/myServe-Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/myServer.iml" filepath="$PROJECT_DIR$/.idea/myServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/@spring/springContext/springContext.iml" filepath="$PROJECT_DIR$/@spring/springContext/springContext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/@spring/springWeb/springWeb.iml" filepath="$PROJECT_DIR$/@spring/springWeb/springWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/@springBoot/springbootweb/springbootweb.iml" filepath="$PROJECT_DIR$/@springBoot/springbootweb/springbootweb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/@spring/springweb/springweb.iml" filepath="$PROJECT_DIR$/@spring/springweb/springweb.iml" />
     </modules>
   </component>
 </project>

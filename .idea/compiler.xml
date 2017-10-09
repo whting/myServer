@@ -24,9 +24,11 @@
         <module name="demo-jstackAnalyse" />
         <module name="demo-jvm" />
         <module name="demo-kafka" />
+        <module name="demo-log" />
         <module name="demo-math" />
         <module name="demo-nosql" />
         <module name="demo-proxy" />
+        <module name="demo-QPS" />
         <module name="demo-rmi" />
         <module name="demo-rpc_socket" />
         <module name="demo-sorting" />
@@ -34,6 +36,7 @@
         <module name="demo-thread" />
         <module name="demo-webService" />
         <module name="demo-websockets" />
+        <module name="demo_idea" />
         <module name="myServe-Common" />
         <module name="myServe-Service" />
         <module name="myServe-UI" />
@@ -41,6 +44,7 @@
         <module name="springbootweb" />
         <module name="springContext" />
         <module name="springweb" />
+        <module name="springWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -62,9 +66,11 @@
       <module name="demo-jstackAnalyse" target="1.8" />
       <module name="demo-jvm" target="1.8" />
       <module name="demo-kafka" target="1.8" />
+      <module name="demo-log" target="1.8" />
       <module name="demo-math" target="1.8" />
       <module name="demo-nosql" target="1.8" />
       <module name="demo-proxy" target="1.8" />
+      <module name="demo-QPS" target="1.8" />
       <module name="demo-rmi" target="1.8" />
       <module name="demo-rpc_socket" target="1.8" />
       <module name="demo-sorting" target="1.8" />
@@ -72,6 +78,7 @@
       <module name="demo-thread" target="1.8" />
       <module name="demo-webService" target="1.8" />
       <module name="demo-websockets" target="1.8" />
+      <module name="demo_idea" target="1.8" />
       <module name="myServe-Common" target="1.8" />
       <module name="myServe-Service" target="1.8" />
       <module name="myServe-UI" target="1.8" />
@@ -80,6 +87,7 @@
       <module name="springbootweb" target="1.8" />
       <module name="springContext" target="1.8" />
       <module name="springweb" target="1.8" />
+      <module name="springWeb" target="1.8" />
       <module name="webtest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
