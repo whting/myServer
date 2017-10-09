@@ -5,6 +5,22 @@ import java.util.Vector;
 
 public class IdeaDemo {
 
+    public static void ideaForx() {
+        String[] args = {};
+        List ls = new ArrayList();
+
+        // foreach
+        for (String arg :
+                args) {
+
+        }
+
+        // fori
+        for (int i = 0; i < 10; i++) {
+
+        }
+    }
+
     public static void ideaItxx() {
         String[] args = {};
         List ls = new ArrayList();
@@ -44,4 +60,5 @@ public class IdeaDemo {
     public static void main(String[] args) {
         ideaItxx();
     }
+
 }
