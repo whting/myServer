@@ -72,28 +72,55 @@
 # 查看仓库
 ```
 ➜  myServer git:(master) ✗ git remote -v
-origin  https://github.com/liuxiang/myServer.git (fetch)
+all     https://github.com/liuxiang/myServer.git (push)
+all     https://git.oschina.net/liuxiang7/myServer.git (push)
+all     https://github.com/liuxiang/myServer.git (fetch)
 origin  https://github.com/liuxiang/myServer.git (push)
-osc     https://git.oschina.net/liuxiang7/myServer.git (fetch)
+origin  https://github.com/liuxiang/myServer.git (fetch)
 osc     https://git.oschina.net/liuxiang7/myServer.git (push)
+osc     https://git.oschina.net/liuxiang7/myServer.git (fetch)
 ```
 
 # 新建远程仓库
-- 修改源
-git remote set-url origin <remote_git_address>
 - 新增源
 git remote add osc <remote_git_address>
+- 修改源
+git remote set-url origin <remote_git_address>
+- 追加源(一般用all,见下文)
+git remote set-url --add origin <remote_git_address>
 
-# 切换仓库
-git pull -v --progress "origin"
-
+# 指定仓库操作
 - github
-git push -u origin master
+git fetch origin master         # 仅更新,不合并
+git pull -v --progress "origin" # 更新+合并﻿merge
+git push origin master          # 仅提交,不切换
+git push -u origin master       # 提交+切换(默认主机)
 
 - oschina
-git push -u osc master
+git pull -v --progress "osc"    # 更新
+git push osc master             # 仅提交,不切换
+git push -u osc master          # 提交+切换(默认主机)
 
 注意:
 1.推送同时完成-u的默认主机[origin/osc]切换
 2.如需多仓库同时操作,可使用相同的仓库名 见:http://blog.csdn.net/isea533/article/details/41382699
+
+# =====================================
+# 多主机设置
+- 添加多主机共享别名
+添加一个remote,这里是all,也可以是别的名字
+git remote add all https://github.com/liuxiang/myServer.git
+再添加另一个:
+git remote set-url --add all https://git.oschina.net/liuxiang7/myServer.git
+如果有多个,按照上面这一个命令进行添加.
+
+- 查看
+git remote -v
+
+- 提交的时候输入
+git push all --all
+
+- 切换主机
+git push -u all master
+
 -->
