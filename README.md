@@ -117,10 +117,11 @@ git remote set-url --add all https://git.oschina.net/liuxiang7/myServer.git
 - 查看
 git remote -v
 
-- 提交的时候输入
-git push all --all
-
 - 切换主机
 git push -u all master
+
+- 提交的时候输入
+git push            # 当前主机已经是默认主机
+git push all --all  # 提交所有分支到远程(all)仓库
 
 -->
