@@ -1,7 +1,4 @@
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Vector;
 
 /**
  * Created by Administrator on 2017/5/13 0013.
@@ -57,9 +54,11 @@ public class Test {
         System.out.println();
     }
 
-
-
+    static long along;
     public static void main(String[] args) {
+        System.out.println(along);// 0
 
+        Long aLong=null;
+        System.out.println(aLong.longValue());// NullPointerException
     }
 }

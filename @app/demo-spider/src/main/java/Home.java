@@ -11,15 +11,13 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static javafx.beans.binding.Bindings.select;
-import static javax.management.Query.attr;
-
 /**
  * Created by Administrator on 2016/7/6.
  */
 public class Home {
 
-    String rootFolder = "F:\\Work\\tuiku_html\\";
+//    String rootFolder = "F:\\Work\\tuiku_html\\";
+    String rootFolder = "/Users/liuxiang/Desktop/work/tuiku_html/";
 
     private Map<String, String> cookies;
 
@@ -42,7 +40,7 @@ public class Home {
         map.put("email", "liuxiang.1227@qq.com");
         map.put("password", "tuicool");
 
-        Connection.Response response = Jsoup.connect("http://www.tuicool.com/login")
+        Connection.Response response = Jsoup.connect("https://www.tuicool.com/login")
                 .data(map)
                 .method(Connection.Method.POST)
                 .execute();
@@ -61,8 +59,8 @@ public class Home {
      * @throws IOException
      */
     public void collect() throws IOException {
-        String url = "http://www.tuicool.com/articles/my?pn=";
-        for (int i = 0; i < 10; i++) {
+        String url = "https://www.tuicool.com/articles/my?pn=";
+        for (int i = 0; i < 5; i++) {
             Document document = Jsoup.connect(url + i)
                     .cookies(getCookies())
                     .get();
@@ -85,7 +83,7 @@ public class Home {
                 /* 打印数据 */
                 System.out.println(title + "   " + "http://www.tuicool.com" + href + "   " + date);
 
-                /** 具体也没访问 */
+                /**  */
                 singleSent(date, title, "http://www.tuicool.com/" + href);
             }
         }
@@ -106,7 +104,7 @@ public class Home {
         if (!singleFile.exists()) {
 
             try {
-                Thread.sleep(1000);// 睡眠,避免被反爬虫
+                Thread.sleep(2000);// 睡眠,避免被反爬虫
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

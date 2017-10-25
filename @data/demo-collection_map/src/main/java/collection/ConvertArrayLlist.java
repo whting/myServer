@@ -1,5 +1,6 @@
 package collection;
 
+import com.google.common.collect.Sets;
 import org.apache.commons.beanutils.ConvertUtils;
 
 import java.util.*;
@@ -41,6 +42,15 @@ public class ConvertArrayLlist {
         }};
 
         System.out.println(set);
+        System.out.println(new HashSet<>(list));
+    }
+
+    /**
+     * set转list
+     */
+    static void set2Array() {
+        Set set = Sets.newHashSet(1, 2, 3, 3, 4, 4, 4, 5, 6);
+        System.out.println(new ArrayList<>(set));
     }
 
     /**
@@ -68,17 +78,18 @@ public class ConvertArrayLlist {
     }
 
 
-
     public static void main(String[] args) {
-        array2List();
-        list2Array();
+//        array2List();
+//        list2Array();
+//
+//        list2Set();
+        set2Array();
+//
+//        List2StringFormat();
+//        strings2Longs();
+//
+//        IntegerArray2intArray();
 
-        list2Set();
-
-        List2StringFormat();
-        strings2Longs();
-
-        IntegerArray2intArray();
 
     }
 }

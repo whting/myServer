@@ -17,7 +17,7 @@ public class FastColletion {
      * fastList - 快速建立
      */
     static void fastList() {
-        List list = new ArrayList() {{ //
+        List list = new ArrayList() {{
             add(1);
             add(2);
             add(3);

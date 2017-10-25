@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/@java/demo-proxy/demo-proxy.iml" filepath="$PROJECT_DIR$/@java/demo-proxy/demo-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/@rpc/demo-rmi/demo-rmi.iml" filepath="$PROJECT_DIR$/@rpc/demo-rmi/demo-rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/@rpc/demo-rpc_socket/demo-rpc_socket.iml" filepath="$PROJECT_DIR$/@rpc/demo-rpc_socket/demo-rpc_socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/@java/demo-security/demo-security.iml" filepath="$PROJECT_DIR$/@java/demo-security/demo-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/@java/demo-sorting/demo-sorting.iml" filepath="$PROJECT_DIR$/@java/demo-sorting/demo-sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/@app/demo-spider/demo-spider.iml" filepath="$PROJECT_DIR$/@app/demo-spider/demo-spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/@async_thread_queue/demo-thread/demo-thread.iml" filepath="$PROJECT_DIR$/@async_thread_queue/demo-thread/demo-thread.iml" />

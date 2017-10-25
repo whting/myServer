@@ -24,7 +24,7 @@ public class MathAccuracy {
     /**
      * 浮点数精度
      */
-    static void floatDubleAccuracy(){
+    static void floatDubleAccuracy() {
         Integer i = 2147483647 + 1;
         System.out.printf("[%s] %s", i.getClass(), i).println();
 
@@ -74,10 +74,12 @@ public class MathAccuracy {
     /**
      * decimal小数计算
      */
-    static void decimalMath(){
+    static void decimalMath() {
         System.out.println(0.1 + 0.2);// 0.30000000000000004
         String decimalNumber = new DecimalFormat("0.00").format(0.1 + 0.2);
         System.out.println(decimalNumber);// 0.30
+
+        System.out.println(new DecimalFormat("#.00").format(96.789d));// 96.79
     }
 
     public static void main(String[] args) {

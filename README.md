@@ -85,6 +85,8 @@ git remote set-url origin <remote_git_address>
 git remote add osc <remote_git_address>
 
 # 切换仓库
+git pull -v --progress "origin"
+
 - github
 git push -u origin master
 
@@ -92,7 +94,6 @@ git push -u origin master
 git push -u osc master
 
 注意:
-1.切换时会自动推送服务器更新
-2.同时指定origin为默认主机-u
-3.如需多仓库同时操作,可使用相同的仓库名 见:http://blog.csdn.net/isea533/article/details/41382699
+1.推送同时完成-u的默认主机[origin/osc]切换
+2.如需多仓库同时操作,可使用相同的仓库名 见:http://blog.csdn.net/isea533/article/details/41382699
 -->

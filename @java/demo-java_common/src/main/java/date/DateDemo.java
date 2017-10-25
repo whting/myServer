@@ -10,6 +10,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * @author liuxiang on 2017/9/7.
@@ -75,6 +76,18 @@ public class DateDemo {
         System.out.println(FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss").format(calendar));// 2018-03-15 08:31:05
     }
 
+    /**
+     * value为正则往后,为负则往前
+     * field取1加1年,取2加半年,取3加一季度,取4加一周,取5加一天
+     */
+    static void gregorianCalendar() {
+        GregorianCalendar gc = new GregorianCalendar() {{
+            setTime(new Date());
+            add(5, 1);// 加1天
+        }};
+        System.out.println(DateFormatUtils.format(gc.getTime(), "yyyy-MM-dd HH:mm:ss"));
+    }
+
     static void dateUtil() throws ParseException {
 //        public class DateFormatUtils {
 //            public static final FastDateFormat ISO_DATETIME_FORMAT = FastDateFormat.getInstance("yyyy-MM-dd'T'HH:mm:ss");
@@ -90,8 +103,8 @@ public class DateDemo {
         System.out.println(DateFormatUtils.ISO_DATE_FORMAT.format(new Date()));// 2017-09-07
         System.out.println(DateFormatUtils.ISO_DATETIME_FORMAT.format(System.currentTimeMillis()));// 2017-09-07T19:17:13
         System.out.println(DateFormatUtils.ISO_TIME_NO_T_FORMAT.format(Calendar.getInstance())); // 19:17:13
-        System.out.println(DateFormatUtils.format(new Date(),"yyyy-MM-dd"));
-        System.out.println(DateFormatUtils.format(new Date(),"yyyy-MM-dd HH:mm:ss"));
+        System.out.println(DateFormatUtils.format(new Date(), "yyyy-MM-dd"));
+        System.out.println(DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss"));
 
         // * - Date
         Date date = DateUtils.parseDate("2017-09-07", new String[]{"yyyy-MM-dd"});
@@ -102,6 +115,7 @@ public class DateDemo {
     public static void main(String[] args) throws Exception {
 //        dateConvert();// 时间形式转换
 //        calendarDemo();// 日历demo
+        gregorianCalendar();
 //        dateUtil();
     }
 }
