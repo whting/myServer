@@ -1,4 +1,4 @@
-package io_nio;
+package nio;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -135,9 +135,11 @@ public class FileOperate_nio {
             // 获取源文件和目标文件的输入输出流    
             in = new FileInputStream(filePath);
             out = new FileOutputStream("d:/work/readFileByBybeBuffer.txt");
+
             // 获取输入输出通道(nio-Channel)
             FileChannel fcIn = in.getChannel();
             FileChannel fcOut = out.getChannel();
+
             ByteBuffer buffer = ByteBuffer.allocate(1024);
             while (true) {
                 // clear方法重设缓冲区，使它可以接受读入的数据  
@@ -166,22 +168,18 @@ public class FileOperate_nio {
         }
     }
 
-    public static long getTime() {
-        return System.currentTimeMillis();
-    }
-
     public static void main(String args[]) {
-        long time1 = getTime() ;
-         readFileByByte(FILE_PATH);// 字节 8734,8281,8000,7781,8047
-         readFileByCharacter(FILE_PATH);// 字符 734, 437, 437, 438, 422
-         readFileByLine(FILE_PATH);// 行读 110, 94,  94,  110, 93
+        long time1 = System.currentTimeMillis();
+        readFileByByte(FILE_PATH);// 字节 8734,8281,8000,7781,8047
+        readFileByCharacter(FILE_PATH);// 字符 734, 437, 437, 438, 422
+        readFileByLine(FILE_PATH);// 行读 110, 94,  94,  110, 93
         readFileByBybeBuffer(FILE_PATH);// nio-Chanel 125, 78,  62,  78, 62
-        long time2 = getTime() ;
-        System.out.println(time2-time1);
+        long time2 = System.currentTimeMillis();
+        System.out.println(time2 - time1);
     }
 
     public static void main_total(String args[]) {
-        long time1 = getTime();
+        long time1 = System.currentTimeMillis();
 //         readFileByByte(FILE_PATH);     //2338,2286
 //         readFileByCharacter(FILE_PATH);//160,162,158
 //         readFileByLine(FILE_PATH);     //46,51,57
@@ -197,7 +195,7 @@ public class FileOperate_nio {
 //        readFileByBybeBuffer(FILE_PATH);//1024*10000 10M,1422k: 16,17,14,15
 //        readFileByBybeBuffer(FILE_PATH);//1024*10000 10M,9951k:64,60
 
-        long time2 = getTime();
+        long time2 = System.currentTimeMillis();
         System.out.println(time2 - time1);
     }
 }  

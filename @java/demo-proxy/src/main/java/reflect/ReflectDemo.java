@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class ReflectDemo {
 
-    private String name;
+    private String name = "hh";
 
     private String getName() {
         return name;
@@ -34,7 +34,8 @@ public class ReflectDemo {
         System.out.println("成员属性:");
         Field[] fields = ReflectDemo.class.getDeclaredFields();
         for (Field field : fields) {
-            System.out.println(field);// field.toString() 完整展示
+            field.setAccessible(true);
+            System.out.println(field + " = " + field.get(ReflectDemo.class.newInstance()));// field.toString() 完整展示
         }
 
         System.out.println();
@@ -83,21 +84,21 @@ public class ReflectDemo {
         Method[] methods_ = ReflectDemo.class.getDeclaredMethods();
         for (Method method : methods_) {
             System.out.println(method);// method.toString() 完整展示
-            if(method.getName().equals("setList")){
+            if (method.getName().equals("setList")) {
                 ReflectDemo reflectDemo = ReflectDemo.class.newInstance();
-                method.invoke(reflectDemo, Arrays.asList(1,2,3));// private ethod-写
+                method.invoke(reflectDemo, Arrays.asList(1, 2, 3));// private ethod-写
                 Field field = ReflectDemo.class.getDeclaredField("ls");
-                System.out.println("Field ls:"+field.get(reflectDemo));// private Field-读
+                System.out.println("Field ls:" + field.get(reflectDemo));// private Field-读
             }
         }
 
         // 正确getDeclaredMethod-private
-        Method method = ReflectDemo.class.getDeclaredMethod("setList",List.class);// java.lang.NoSuchMethodException: reflect.ReflectDemo.getName()
+        Method method = ReflectDemo.class.getDeclaredMethod("setList", List.class);// java.lang.NoSuchMethodException: reflect.ReflectDemo.getName()
         ReflectDemo reflectDemo = ReflectDemo.class.newInstance();
         method.setAccessible(true);
-        method.invoke(reflectDemo, Arrays.asList(1,2,3,4));
+        method.invoke(reflectDemo, Arrays.asList(1, 2, 3, 4));
         Field field = ReflectDemo.class.getDeclaredField("ls");
-        System.out.println("Field ls:"+field.get(reflectDemo));// private Field-读
+        System.out.println("Field ls:" + field.get(reflectDemo));// private Field-读
 
         System.out.println("======================================(错误示例)");
 
@@ -107,9 +108,9 @@ public class ReflectDemo {
         method1.invoke(ReflectDemo.class.newInstance());
 
         Method method2 = ReflectDemo.class.getMethod("setList", List.class);// java.lang.NoSuchMethodException: reflect.ReflectDemo.setList(java.util.List)
-        method2.invoke(ReflectDemo.class.newInstance(), Arrays.asList(1,2,3));
+        method2.invoke(ReflectDemo.class.newInstance(), Arrays.asList(1, 2, 3));
 
         MethodAccess access = MethodAccess.get(ReflectDemo.class);
-        access.invoke(ReflectDemo.class.newInstance(),"setList",new ArrayList());// java.lang.IllegalArgumentException: Unable to find non-private method: setList with 1 params
+        access.invoke(ReflectDemo.class.newInstance(), "setList", new ArrayList());// java.lang.IllegalArgumentException: Unable to find non-private method: setList with 1 params
     }
 }

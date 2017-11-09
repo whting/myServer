@@ -1,4 +1,4 @@
-package io_nio;
+package nio;
 
 import java.io.BufferedReader;
 import java.io.File;  
